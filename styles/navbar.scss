@@ -1,0 +1,43 @@
+.NavarContainer {
+    background-color: #FFFFFF;
+  display: inline-block;
+  box-shadow: 0em 0.18em 0.3em 0em rgba(0, 0, 0, 0.29);
+  width: 100%;
+  padding: 1rem;
+  top: 0;
+
+  &__FirstPart {
+    display: inline-block;
+    &__MenuIcon {
+        padding-left: 1rem;
+        margin-right: 1.5rem;
+    }
+
+    &__H {
+        display: inline-block;
+        box-shadow: 0rem 0.875rem 1.5rem 0rem rgba(139, 139, 139, 0.25);
+        padding: 0.75rem;
+        margin-right: 0.5rem;
+        
+    }
+
+  }
+
+  &__SecondPart {
+    display: inline-block;
+    padding-left:5rem;
+
+    &__MenuDesplegable {
+        display: none;
+    }
+
+    &__MenuIcon {
+        display: none;
+    }
+
+    &__Search {
+        padding-left: 1rem;
+    }
+
+  }
+}
