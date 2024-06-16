@@ -248,6 +248,7 @@ body {
 
 .RoomSlideContainer {
   display: block;
+  position: relative;
 }
 .RoomSlideContainer__Subtitle {
   font-family: "Archivo", sans-serif;
@@ -279,6 +280,49 @@ body {
 }
 .RoomSlideContainer__ContenedorFlechas__Derecha {
   transform: translateX(165%) translateY(-370%);
+}
+.RoomSlideContainer__TitleMinimal {
+  font-size: 2em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  text-align: center;
+  display: block;
+  padding: 1rem;
+}
+.RoomSlideContainer__Text {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  color: #777777;
+  padding: 1rem;
+}
+.RoomSlideContainer__ContainerPrice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.RoomSlideContainer__ContainerPrice__Price {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  color: #BEAD8E;
+  font-size: 3em;
+  text-align: center;
+}
+.RoomSlideContainer__ContainerPrice__Price__Text {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  color: #BEAD8E;
+  font-size: 1em;
+  text-align: center;
+}
+.RoomSlideContainer__Minimal {
+  display: block;
+  width: 90%;
+  margin: 1rem;
+  position: absolute;
+  top: 88%;
+  background-color: white;
 }
 
 /*# sourceMappingURL=output.css.map */
