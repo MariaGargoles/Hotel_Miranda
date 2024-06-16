@@ -246,4 +246,39 @@ body {
   color: #FFFFFF;
 }
 
+.RoomSlideContainer {
+  display: block;
+}
+.RoomSlideContainer__Subtitle {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  color: #777777;
+  padding: 1rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+.RoomSlideContainer__Title {
+  font-size: 3em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  padding-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+.RoomSlideContainer__Icons {
+  transform: translateX(15%) translateY(66%);
+}
+.RoomSlideContainer__ContenedorFlechas {
+  display: flex;
+  justify-content: space-around;
+}
+.RoomSlideContainer__ContenedorFlechas__Izquierda {
+  transform: translateX(-151%) translateY(-370%);
+}
+.RoomSlideContainer__ContenedorFlechas__Derecha {
+  transform: translateX(165%) translateY(-370%);
+}
+
 /*# sourceMappingURL=output.css.map */
