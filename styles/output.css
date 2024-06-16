@@ -180,5 +180,42 @@ body {
   margin-left: 1rem;
   margin-top: 2rem;
 }
+.AboutUsContainer__Imagenprincipal {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-top: 2rem;
+  width: 82%;
+}
+.AboutUsContainer__ImageContainer {
+  display: block;
+  box-shadow: 0rem 0.5rem 1rem 0rem rgba(34, 34, 34, 0.02);
+  margin-left: 2rem;
+  margin-right: 1.8rem;
+  padding: 2rem;
+  background-color: #FFFFFF;
+}
+.AboutUsContainer__Person {
+  display: inline-block;
+  transform: translateX(-124%);
+}
+.AboutUsContainer__PersonOpa {
+  display: inline-block;
+  transform: translateX(46%) translateY(20%);
+}
+.AboutUsContainer__Strong {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 2em;
+  text-align: center;
+  padding: 1rem;
+}
+.AboutUsContainer__Strong__Text {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  padding: 1rem;
+  line-height: 1.4rem;
+}
 
 /*# sourceMappingURL=output.css.map */
