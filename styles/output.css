@@ -96,5 +96,43 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.175rem;
 }
+.Main__Form {
+  background-color: #222222;
+  padding: 2rem;
+}
+.Main__Form__Text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.Main__Form__input {
+  border: none;
+  border-bottom: 2px solid #BEAD8E;
+  width: 80%;
+  outline: none;
+  margin-left: 0.5rem;
+  background-color: #222222;
+  color: grey;
+}
+.Main__Form__button {
+  padding: 1rem;
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  color: white;
+  background-color: #BEAD8E;
+  border: none;
+  cursor: pointer;
+  width: 76%;
+  height: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+}
 
 /*# sourceMappingURL=output.css.map */

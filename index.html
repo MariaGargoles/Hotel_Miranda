@@ -16,6 +16,12 @@
       href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Hotel Miranda</title>
   </head>
   <body>
@@ -84,28 +90,29 @@
         <button class="Main__Container__ButtonTour">Take a Tour</button>
         <button class="Main__Container__ButtonMore">Learn more</button>
       </div>
-      <form class="Main__Form">
-        <h3 class="Main__Form__Text">Arrival Date</h3>
-        <img src="./assets/mainAssets/calendar.png" alt="calendar" />
-        <label for="ArrivalDate" class="Main__Form__Label"></label>
-        <input
-          type="date"
-          name="ArrivalDate"
-          class="Main__Form__input"
-          placeholder="24th march 2020"
-        />
-        <h3 class="Main__Form__Text">LeDeparture Date</h3>
-        <img src="./assets/mainAssets/calendar.png" alt="calendar" />
-        <label for="DepartureDate" class="Main__Form__Label"></label>
-        <input
-          type="date"
-          name="DepartureDate"
-          class="Main__Form__input"
-          placeholder="30th march 2020"
-        />
-        <button class="Main__Form__button">Check availability</button>
-      </form>
     </main>
+    <form class="Main__Form">
+      <h3 class="Main__Form__Text">Arrival Date</h3>
+      <img src="./assets/mainAssets/calendar.png" alt="calendar" />
+      <label for="ArrivalDate" class="Main__Form__Label"></label>
+      <input
+        type="text"
+        name="ArrivalDate"
+        class="Main__Form__input"
+        placeholder="24th march 2020"
+      />
+      <h3 class="Main__Form__Text">LeDeparture Date</h3>
+      <img src="./assets/mainAssets/calendar.png" alt="calendar" />
+      <label for="DepartureDate" class="Main__Form__Label"></label>
+      <input
+        type="text"
+        name="DepartureDate"
+        class="Main__Form__input"
+        placeholder="30th march 2020"
+      />
+      <button class="Main__Form__button">Check availability</button>
+    </form>
+
     <section class="AboutUsContainer">
       <h3>About Us</h3>
       <h2>Discover Our Underground.</h2>
