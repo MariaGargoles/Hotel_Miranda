@@ -217,5 +217,33 @@ body {
   padding: 1rem;
   line-height: 1.4rem;
 }
+.AboutUsContainer__ContainerLuxury {
+  background-color: #222222;
+  display: block;
+  margin-left: 2rem;
+  margin-right: 1.8rem;
+  padding: 2rem;
+  padding-top: 4rem;
+}
+.AboutUsContainer__ContainerLuxury__Imagen {
+  display: block;
+  transform: translateX(121%);
+}
+.AboutUsContainer__ContainerLuxury__Title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 2em;
+  text-align: center;
+  padding: 1rem;
+  color: #FFFFFF;
+}
+.AboutUsContainer__ContainerLuxury__Text {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  padding: 1rem;
+  line-height: 1.4rem;
+  color: #FFFFFF;
+}
 
 /*# sourceMappingURL=output.css.map */

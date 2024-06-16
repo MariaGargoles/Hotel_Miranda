@@ -100,4 +100,35 @@
 
     }
 
+    &__ContainerLuxury {
+        background-color: #222222;
+        display: block;
+        margin-left: 2rem;
+        margin-right: 1.8rem;
+        padding: 2rem;
+        padding-top: 4rem;
+
+        &__Imagen {
+            display: block;
+            transform: translateX(121%);
+        }
+
+        &__Title {
+            font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        font-size: 2em;
+        text-align: center;
+        padding: 1rem;
+        color: #FFFFFF;
+        }
+
+        &__Text {
+            font-family: "Roboto", sans-serif;
+        font-size: 0.9em;
+        text-align: center;
+        padding: 1rem;
+        line-height: 1.4rem;
+        color: #FFFFFF;
+        }
+    }
 }
