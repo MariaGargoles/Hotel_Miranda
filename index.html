@@ -3,7 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/output.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Hotel Miranda</title>
   </head>
   <body>
@@ -63,19 +81,49 @@
         />
       </div>
     </nav>
-    <main>
-      <div>
-        <h2>THE ULTIMATE LUXURY EXPERIENCE</h2>
-        <h2>The Perfect Base For You</h2>
-        <button>Take a Tour</button>
-        <button>Learn more</button>
+    <main class="Main">
+      <div class="Main__Container">
+        <h3 class="Main__Container__SubTitle">
+          THE ULTIMATE LUXURY EXPERIENCE
+        </h3>
+        <h2 class="Main__Container__Title">The Perfect Base For You</h2>
+        <button class="Main__Container__ButtonTour">Take a Tour</button>
+        <button class="Main__Container__ButtonMore">Learn more</button>
       </div>
-      <form>
-        <h3>Arrival Date</h3>
-        <label></label>
-      </form>
     </main>
-    <section class="AboutUsContainer"></section>
+    <form class="Main__Form">
+      <h3 class="Main__Form__Text">Arrival Date</h3>
+      <img src="./assets/mainAssets/calendar.png" alt="calendar" />
+      <label for="ArrivalDate" class="Main__Form__Label"></label>
+      <input
+        type="text"
+        name="ArrivalDate"
+        class="Main__Form__input"
+        placeholder="24th march 2020"
+      />
+      <h3 class="Main__Form__Text">LeDeparture Date</h3>
+      <img src="./assets/mainAssets/calendar.png" alt="calendar" />
+      <label for="DepartureDate" class="Main__Form__Label"></label>
+      <input
+        type="text"
+        name="DepartureDate"
+        class="Main__Form__input"
+        placeholder="30th march 2020"
+      />
+      <button class="Main__Form__button">Check availability</button>
+    </form>
+
+    <section class="AboutUsContainer">
+      <h3>About Us</h3>
+      <h2>Discover Our Underground.</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </p>
+      <button>Book Now</button>
+    </section>
     <section class="RoomSlideContainer"></section>
     <section class="IntroVideoContainer"></section>
     <section class="FacilitiesContainer"></section>
