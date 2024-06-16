@@ -249,6 +249,7 @@ body {
 .RoomSlideContainer {
   display: block;
   position: relative;
+  margin-bottom: 18rem;
 }
 .RoomSlideContainer__Subtitle {
   font-family: "Archivo", sans-serif;
@@ -323,6 +324,60 @@ body {
   position: absolute;
   top: 88%;
   background-color: white;
+  padding-bottom: 2rem;
+}
+
+.IntroVideoContainer {
+  background-color: #222222;
+  padding: 1rem;
+  padding-top: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 3rem;
+}
+.IntroVideoContainer__Subtitle {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  color: #BDAC8D;
+  padding: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+}
+.IntroVideoContainer__Title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 3em;
+  padding: 1rem;
+  color: white;
+}
+.IntroVideoContainer__Text {
+  color: #C2C2C2;
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  padding: 1rem;
+}
+.IntroVideoContainer__Video {
+  padding-top: 1rem;
+}
+.IntroVideoContainer__Video__Button {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  color: white;
+  background-color: #BEAD8E;
+  border: none;
+  cursor: pointer;
+  width: 66%;
+  height: 4rem;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+.IntroVideoContainer__Video__Play {
+  transform: translateX(200%) translateY(-270%);
 }
 
 /*# sourceMappingURL=output.css.map */

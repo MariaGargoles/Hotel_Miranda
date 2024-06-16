@@ -1,0 +1,61 @@
+.IntroVideoContainer {
+   background-color: #222222; 
+   padding: 1rem;
+   padding-top: 3rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   padding-bottom: 3rem;
+
+   &__Subtitle {
+    font-family: "Archivo", sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    color: #BDAC8D;
+    padding: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.175rem;
+   }
+
+   &__Title {
+        font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        font-size: 3em;
+        padding: 1rem;
+        color: white;
+   }
+   &__Text {
+    color: #C2C2C2;
+    font-family: "Archivo", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    padding: 1rem;
+   }
+
+   &__Video {
+    padding-top: 1rem;
+
+    &__Button {
+        font-family: "Archivo", sans-serif;
+        font-weight: 600;
+        color: white;
+        background-color: #BEAD8E;
+        border: none;
+        cursor: pointer;
+        width: 66%;
+        height: 4rem;
+        font-size: 0.9em;
+        text-transform: uppercase;
+        letter-spacing: 0.175rem;
+        margin-left: 1rem;
+        margin-top: 2rem;
+      }  
+
+    &__Play {
+        transform: translateX(200%) translateY(-270%);
+
+      
+    }
+
+   }
+
+}
