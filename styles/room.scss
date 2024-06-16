@@ -1,6 +1,7 @@
 .RoomSlideContainer {
  
     display: block;
+    position: relative;
     &__Subtitle {
         font-family: "Archivo", sans-serif;
         font-weight: 600;
@@ -39,5 +40,59 @@
             transform: translateX(165%) translateY(-370%);
 
         }
+    }
+
+    &__TitleMinimal {
+        font-size: 2em;
+        font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        text-align: center;
+        display: block;
+        padding: 1rem;
+    }
+
+    &__Text {
+        font-family: "Roboto", sans-serif;
+        font-size: 0.9em;
+        text-align: center;
+        color: #777777;
+        padding: 1rem;
+        
+    }
+    &__ContainerPrice{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        
+    &__Price { 
+        
+        font-family: "Archivo", sans-serif;
+        font-weight: 600;
+        color: #BEAD8E;
+        font-size: 3em;
+        text-align: center;
+        
+        
+        
+
+        &__Text {
+           
+        font-family: "Archivo", sans-serif;
+        font-weight: 600;
+        color: #BEAD8E;
+        font-size: 1em;
+        text-align: center;
+        
+        }
+    }
+    }
+    &__Minimal {
+        display: block;
+        width: 90%;
+        margin: 1rem;
+        position: absolute;
+        top: 88%;
+        background-color: white;
     }
 }
