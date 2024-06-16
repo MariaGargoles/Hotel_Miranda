@@ -1,0 +1,134 @@
+.AboutUsContainer {
+    background-color: #F9F9F9;
+    margin-top: 4rem;
+    padding-top: 2rem;
+    padding: 1rem;
+
+    &__Title {
+      color: #777777;
+      font-family: "Archivo", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding-top: 2rem;
+    padding-left: 1rem;
+        
+    }
+
+    &__Subtitle {
+        font-size: 3em;
+        font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        padding-top: 2rem;
+        padding-left: 1rem;
+    }
+
+    &__Text {
+        font-family: "Archivo", sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+        color: #777777;
+        padding: 1rem;
+    }
+
+    &__Button {
+        font-family: "Archivo", sans-serif;
+        font-weight: 600;
+        color: white;
+        background-color: #BEAD8E;
+        border: none;
+        cursor: pointer;
+        width: 66%;
+        height: 4rem;
+        font-size: 0.9em;
+        text-transform: uppercase;
+        letter-spacing: 0.175rem;
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+
+    &__Imagenprincipal {
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding-top: 2rem;
+        width: 82%;
+    }
+
+    &__ImageContainer {
+        display: block;
+        box-shadow: 0rem 0.5rem 1rem 0rem rgba(34, 34, 34, 0.02);
+        margin-left: 2rem;
+        margin-right: 1.8rem;
+        padding: 2rem;
+        background-color: #FFFFFF;
+        ;
+        
+    }
+
+    &__Person {
+        display: inline-block;
+        transform: translateX(-124%);
+        
+
+    }
+
+    &__PersonOpa {
+        display: inline-block;
+        transform: translateX(46%) translateY(20%);
+
+    }
+
+    &__Strong {
+        font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        font-size: 2em;
+        text-align: center;
+        padding: 1rem;
+        
+
+        &__Text {
+        font-family: "Roboto", sans-serif;
+        font-size: 0.9em;
+        text-align: center;
+        padding: 1rem;
+        line-height: 1.4rem;
+
+
+        }
+
+    }
+
+    &__ContainerLuxury {
+        background-color: #222222;
+        display: block;
+        margin-left: 2rem;
+        margin-right: 1.8rem;
+        padding: 2rem;
+        padding-top: 4rem;
+
+        &__Imagen {
+            display: block;
+            transform: translateX(121%);
+        }
+
+        &__Title {
+            font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        font-size: 2em;
+        text-align: center;
+        padding: 1rem;
+        color: #FFFFFF;
+        }
+
+        &__Text {
+            font-family: "Roboto", sans-serif;
+        font-size: 0.9em;
+        text-align: center;
+        padding: 1rem;
+        line-height: 1.4rem;
+        color: #FFFFFF;
+        }
+    }
+}
