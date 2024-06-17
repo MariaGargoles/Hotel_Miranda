@@ -533,4 +533,25 @@ body {
   background-color: #BEAD8E;
 }
 
+.IconsContainer {
+  padding: 2rem;
+  text-align: center;
+  background-color: #222222;
+}
+.IconsContainer__Article {
+  padding-bottom: 3rem;
+}
+.IconsContainer__Title {
+  font-family: "Roboto", sans-serif;
+  font-size: 3em;
+  color: white;
+  font-weight: 700;
+}
+.IconsContainer__Text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  color: #777777;
+  font-weight: 700;
+}
+
 /*# sourceMappingURL=output.css.map */
