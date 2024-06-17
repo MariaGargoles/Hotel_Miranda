@@ -31,8 +31,14 @@
     padding: 1rem;
    }
 
-   &__Video {
-    padding-top: 1rem;
+   &__ContainerVideo {
+    padding: 1rem;
+
+    &__Video {
+      width: 100%;
+      height: 20rem;
+    }
+    
 
     &__Button {
         font-family: "Archivo", sans-serif;
