@@ -450,4 +450,24 @@ body {
   background-color: #BEAD8E;
 }
 
+.MenuContainer {
+  display: block;
+  padding: 2rem;
+}
+.MenuContainer__Subtitle {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  color: #777777;
+  padding: 1rem;
+}
+.MenuContainer__Title {
+  font-size: 3em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  padding-bottom: 2rem;
+}
+
 /*# sourceMappingURL=output.css.map */

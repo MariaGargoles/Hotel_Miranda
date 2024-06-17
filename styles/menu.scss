@@ -1,0 +1,52 @@
+.MenuContainer {
+    display: block;
+    padding: 2rem;
+    
+    &__Subtitle {
+    font-family: "Archivo", sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.175rem;
+    color: #777777;
+    padding: 1rem;
+    
+    }
+
+    &__Title {
+        font-size: 3em;
+        font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        padding-bottom: 2rem;
+        
+    
+    }
+
+    &__Slider {
+
+        &__Part1 {
+
+        }
+
+        &__Part2 {
+
+        }
+
+        &__Arrows {
+            
+        }
+
+        &__Item {
+
+        }
+
+        &__Title {
+
+        }
+
+        &__Text {
+
+        }
+
+    }
+}
