@@ -380,4 +380,14 @@ body {
   transform: translateX(200%) translateY(-270%);
 }
 
+.FacilitiesContainer__Subtitle {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  font-size: 0.9em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  color: #777777;
+}
+
 /*# sourceMappingURL=output.css.map */
