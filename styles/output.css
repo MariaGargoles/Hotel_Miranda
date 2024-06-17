@@ -510,6 +510,9 @@ body {
   height: 7.5rem;
   margin: 0.5rem;
 }
+.MenuContainer__ArticleSlide {
+  margin-bottom: 2rem;
+}
 .MenuContainer__ArticleSlide__DotsList {
   display: flex;
   justify-content: center;
