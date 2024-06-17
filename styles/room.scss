@@ -2,6 +2,8 @@
  
     display: block;
     position: relative;
+    margin-bottom: 18rem;
+    
     &__Subtitle {
         font-family: "Archivo", sans-serif;
         font-weight: 600;
@@ -11,6 +13,7 @@
         letter-spacing: 0.1rem;
     text-transform: uppercase;
     margin-top: 1rem;
+    
 
 
     }
@@ -94,5 +97,6 @@
         position: absolute;
         top: 88%;
         background-color: white;
+        padding-bottom: 2rem;
     }
 }
