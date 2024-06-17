@@ -63,6 +63,7 @@
     &__dotsnav {
     padding: 3px;
     text-align: center;
+    border: 1px solid rgb(185, 185, 185);
     background-color: white;
     margin: 0.25rem;
     border-radius: 50%;
@@ -70,6 +71,7 @@
 
     &--active{
         background-color: #BEAD8E;
+        
     }
     }
  }

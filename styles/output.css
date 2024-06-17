@@ -358,10 +358,14 @@ body {
   font-size: 1em;
   padding: 1rem;
 }
-.IntroVideoContainer__Video {
-  padding-top: 1rem;
+.IntroVideoContainer__ContainerVideo {
+  padding: 1rem;
 }
-.IntroVideoContainer__Video__Button {
+.IntroVideoContainer__ContainerVideo__Video {
+  width: 100%;
+  height: 20rem;
+}
+.IntroVideoContainer__ContainerVideo__Button {
   font-family: "Archivo", sans-serif;
   font-weight: 600;
   color: white;
@@ -376,7 +380,7 @@ body {
   margin-left: 1rem;
   margin-top: 2rem;
 }
-.IntroVideoContainer__Video__Play {
+.IntroVideoContainer__ContainerVideo__Play {
   transform: translateX(200%) translateY(-270%);
 }
 
@@ -436,6 +440,7 @@ body {
 .FacilitiesContainer__containerdots__dotsnav {
   padding: 3px;
   text-align: center;
+  border: 1px solid rgb(185, 185, 185);
   background-color: white;
   margin: 0.25rem;
   border-radius: 50%;
