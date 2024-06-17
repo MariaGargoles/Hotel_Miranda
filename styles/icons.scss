@@ -1,0 +1,23 @@
+.IconsContainer {
+    padding: 2rem;
+    text-align: center;
+    background-color: #222222;
+
+    &__Article {
+        padding-bottom: 3rem;
+    }
+
+    &__Title {
+        font-family: "Roboto", sans-serif;
+        font-size: 3em;
+        color: white;
+        font-weight: 700;
+    }
+
+    &__Text {
+        font-family: "Roboto", sans-serif;
+        font-size: 1em;
+        color: #777777;
+        font-weight: 700;
+    }
+}
