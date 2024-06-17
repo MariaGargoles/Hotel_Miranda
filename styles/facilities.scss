@@ -1,4 +1,6 @@
 .FacilitiesContainer {
+    display: block;
+    padding-bottom: 3rem;
 
  &__Subtitle {
     font-family: "Archivo", sans-serif;
@@ -8,6 +10,67 @@
     text-transform: uppercase;
     letter-spacing: 0.175rem;
     color: #777777;
-    ;
- }   
+    padding: 2rem;
+    
+ }  
+ 
+ &__Title {
+    font-size: 3em;
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    text-align: center;
+ }
+
+ &__HighText {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    padding: 1.5rem;
+ }
+
+ &__Text {
+    font-family: "Archivo", sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+    color: #777777;
+    padding-left: 1.5rem;
+    padding-right: 3rem;
+    
+ }
+
+ &__ImgContainer {
+    display: inline-block;
+    padding: 4rem;
+
+    &__Dedo {
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+        transform: translateX(-143%) translateY(15%);
+    }
+
+    &__01 {
+        transform: translateX(-6%) translateY(-12%);
+    }
+ }
+
+ &__containerdots {
+    display: flex;
+    justify-content: center;
+    padding: 0.6rem;
+    list-style: none;
+    margin-top: 2rem;
+
+    &__dotsnav {
+    padding: 3px;
+    text-align: center;
+    background-color: white;
+    margin: 0.25rem;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    &--active{
+        background-color: #BEAD8E;
+    }
+    }
+ }
 }
