@@ -554,4 +554,76 @@ body {
   font-weight: 700;
 }
 
+.footerContainer {
+  background-image: url("../assets/footerAssets/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  margin: 2rem;
+}
+.footerContainer__Imagen {
+  display: inline-block;
+  padding: 1.2rem;
+  background-color: #BEAD8E;
+}
+.footerContainer__Hotel {
+  display: inline-block;
+  padding-left: 2.3rem;
+}
+.footerContainer__Text {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #777777;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  margin-right: 4rem;
+}
+.footerContainer__SocialMedial {
+  padding: 1rem;
+  margin-right: 1rem;
+}
+.footerContainer__SocialMedial__Item {
+  padding-right: 1rem;
+}
+.footerContainer__SocialMedial__Item--twitter {
+  padding: 0.5rem;
+  background-color: #BEAD8E;
+  margin-right: 1rem;
+}
+.footerContainer__Title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.footerContainer__List {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  color: #777777;
+  line-height: 2.5rem;
+  padding-bottom: 2rem;
+}
+.footerContainer__InfoContainer {
+  display: block;
+}
+.footerContainer__InfoContainer__Info {
+  display: inline-flex;
+}
+.footerContainer__InfoContainer__Image {
+  width: 2em;
+  height: 2em;
+}
+.footerContainer__footcontainer {
+  background-color: white;
+}
+.footerContainer__footcontainer__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  padding-top: 1rem;
+}
+
 /*# sourceMappingURL=output.css.map */
