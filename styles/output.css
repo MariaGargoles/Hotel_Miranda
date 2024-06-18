@@ -12,6 +12,10 @@
 .NavarContainer__FirstPart__MenuIcon {
   padding-left: 1rem;
   margin-right: 1.5rem;
+  cursor: pointer;
+}
+.NavarContainer__FirstPart__MenuIcon--active {
+  content: url("../assets/navbarAssets/1(1).png");
 }
 .NavarContainer__FirstPart__H {
   display: inline-block;
@@ -25,6 +29,19 @@
 }
 .NavarContainer__SecondPart__MenuDesplegable {
   display: none;
+}
+.NavarContainer__SecondPart__MenuDesplegable--active {
+  display: block;
+}
+.NavarContainer__SecondPart__MenuDesplegable__Contenedor {
+  display: inline-block;
+  list-style: none;
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+}
+.NavarContainer__SecondPart__MenuDesplegable__list {
+  margin: 1rem;
+  padding-top: 1rem;
 }
 .NavarContainer__SecondPart__MenuIcon {
   display: none;

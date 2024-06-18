@@ -11,6 +11,11 @@
     &__MenuIcon {
         padding-left: 1rem;
         margin-right: 1.5rem;
+        cursor: pointer;
+
+        &--active {
+          content: url("../assets/navbarAssets/1\(1\).png");
+        }
     }
 
     &__H {
@@ -29,6 +34,27 @@
 
     &__MenuDesplegable {
         display: none;
+        &--active{
+          display: block;
+          
+          
+          
+          
+          
+        }
+
+        &__Contenedor {
+          display: inline-block;
+          list-style: none;
+          font-family: "Archivo", sans-serif;
+          font-weight: 600;
+          
+        }
+
+        &__list {
+          margin: 1rem;
+          padding-top: 1rem;
+        }
     }
 
     &__MenuIcon {
