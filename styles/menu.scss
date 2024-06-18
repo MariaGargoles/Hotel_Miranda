@@ -44,9 +44,11 @@
 
             &--izquierda {
                 transform: translateX(100%) translateY(-135%);
+                cursor: pointer;
             }
             &--derecha {
                 transform: translateX(38%) translateY(-15%);
+                cursor: pointer;
             }
         }
 
@@ -116,3 +118,4 @@
         }
     }
 }
+

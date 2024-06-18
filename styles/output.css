@@ -504,9 +504,11 @@ body {
 }
 .MenuContainer__Slider__Arrows--izquierda {
   transform: translateX(100%) translateY(-135%);
+  cursor: pointer;
 }
 .MenuContainer__Slider__Arrows--derecha {
   transform: translateX(38%) translateY(-15%);
+  cursor: pointer;
 }
 .MenuContainer__Slider__Item {
   display: inline-flex;
