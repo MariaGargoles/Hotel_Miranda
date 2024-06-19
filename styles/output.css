@@ -630,16 +630,29 @@ body {
   color: #777777;
   line-height: 2.5rem;
   padding-bottom: 2rem;
+  display: inline-grid;
 }
 .footerContainer__InfoContainer {
   display: block;
 }
 .footerContainer__InfoContainer__Info {
-  display: inline-flex;
+  display: block;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
 }
 .footerContainer__InfoContainer__Image {
   width: 2em;
   height: 2em;
+  margin-top: 1rem;
+}
+.footerContainer__InfoContainer__Text {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #777777;
+}
+.footerContainer__InfoGrid {
+  display: inline-flex;
 }
 .footerContainer__footcontainer {
   background-color: white;

@@ -57,7 +57,7 @@
         color: #777777;
         line-height: 2.5rem;
         padding-bottom: 2rem;
-        
+        display: inline-grid;
         &__Item {
 
         }
@@ -67,16 +67,30 @@
         display: block;
 
         &__Info {
-            display: inline-flex;
+            display: block;
+            padding-left: 3rem;
+            padding-bottom: 2rem;
 
         }
 
         &__Image {
             width: 2em;
             height: 2em;
+            margin-top: 1rem;
+        }
+
+        &__Text {
+            font-family: "Archivo", sans-serif;
+            font-weight: 400;
+            font-size: 1em;
+            color: #777777;
         }
 
         
+    }
+    &__InfoGrid {
+        display: inline-flex;
+
     }
 
     &__footcontainer {
