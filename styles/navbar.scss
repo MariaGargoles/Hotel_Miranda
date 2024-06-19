@@ -57,6 +57,11 @@
           margin: 1rem;
           padding-top: 1rem;
         }
+
+        &__link {
+          text-decoration: none;
+        color: inherit;
+        }
     }
 
     &__MenuIcon {
