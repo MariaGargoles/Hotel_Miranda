@@ -1,15 +1,10 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const swiper = new Swiper(".swiper-container", {
-    direction: "vertical",
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    slidesPerView: 3,
-  });
+const swiper = new Swiper(".swiper-container", {
+  direction: "vertical",
+  loop: true,
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  slidesPerView: 3,
 });
