@@ -1,10 +1,9 @@
-const swiper = new Swiper(".swiper-container", {
-  direction: "vertical",
+const swiper = new Swiper(".swiper--menu", {
+  direction: "horizontal",
   loop: true,
 
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  slidesPerView: 3,
 });

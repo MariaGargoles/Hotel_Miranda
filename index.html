@@ -23,10 +23,11 @@
       rel="stylesheet"
     />
     <script src="./js/HambMenu.js" defer></script>
-    <!--<script src="./js/slideMenu.js" defer></script>-
-    <script src="./node_modules/swiper/swiper-bundle.min.js" defer></script>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>-->
+    <script src="./js/swiper.js" defer></script>-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
     <title>Hotel Miranda</title>
   </head>
   <body>
@@ -289,52 +290,86 @@
     <section class="MenuContainer">
       <h3 class="MenuContainer__Subtitle">Menu</h3>
       <h2 class="MenuContainer__Title">Our Foods Menu</h2>
-  
-      <div class="MenuContainer__Slider">
-        <div class="MenuContainer__Slider__Part" id="SliderPart1">
-            <div class="MenuContainer__Slider__Item swiper-slide">
-                <img src="./assets/menuAssets/Rectangle 38.png" alt="Huevos y Bacon" class="MenuContainer__Slider__Imagen" />
-                <div class="MenuContainer__Slider__ContainerText ">
-                    <h3 class="MenuContainer__Slider__Title">Eggs & Bacon</h3>
-                    <p class="MenuContainer__Slider__Text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </div>
+      <article class="MenuContainer__Slider swiper--menu">
+        <div class="MenuContainer__Slider__Part swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="MenuContainer__Slider__Item">
+              <img src="./assets/menuAssets/Rectangle 38.png" alt="Huevos y Bacon" class="MenuContainer__Slider__Imagen" />
+              <div class="MenuContainer__Slider__ContainerText">
+                <h3 class="MenuContainer__Slider__Title">Eggs & Bacon</h3>
+                <p class="MenuContainer__Slider__Text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
             </div>
-            <div class="MenuContainer__Slider__Item swiper-slide">
-                <img src="./assets/menuAssets/Rectangle 38.png" alt="Te o Cafe" class="MenuContainer__Slider__Imagen" />
-                <div class="MenuContainer__Slider__ContainerText">
-                    <h3 class="MenuContainer__Slider__Title">Tea or Coffee</h3>
-                    <p class="MenuContainer__Slider__Text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </div>
+            <div class="MenuContainer__Slider__Item">
+              <img src="./assets/menuAssets/Rectangle 38.png" alt="Te o Cafe" class="MenuContainer__Slider__Imagen" />
+              <div class="MenuContainer__Slider__ContainerText">
+                <h3 class="MenuContainer__Slider__Title">Tea or Coffee</h3>
+                <p class="MenuContainer__Slider__Text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
             </div>
-            <div class="MenuContainer__Slider__Item swiper-slide">
-                <img src="./assets/menuAssets/Rectangle 38.png" class="MenuContainer__Slider__Imagen" alt="Chia" />
-                <div class="MenuContainer__Slider__ContainerText">
-                    <h3 class="MenuContainer__Slider__Title">Chia Oatmeal</h3>
-                    <p class="MenuContainer__Slider__Text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </div>
+            <div class="MenuContainer__Slider__Item">
+              <img src="./assets/menuAssets/Rectangle 38.png" class="MenuContainer__Slider__Imagen" alt="Chia" />
+              <div class="MenuContainer__Slider__ContainerText">
+                <h3 class="MenuContainer__Slider__Title">Chia Oatmeal</h3>
+                <p class="MenuContainer__Slider__Text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
             </div>
-            <div class="MenuContainer__Slider__Item swiper-slide">
-                <img src="./assets/menuAssets/Rectangle 38.png" class="MenuContainer__Slider__Imagen" alt="Juice" />
-                <div class="MenuContainer__Slider__ContainerText">
-                    <h3 class="MenuContainer__Slider__Title">Juice</h3>
-                    <p class="MenuContainer__Slider__Text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="MenuContainer__Slider__Item">
+              <img src="./assets/menuAssets/Rectangle 38.png" class="MenuContainer__Slider__Imagen" alt="Juice" />
+              <div class="MenuContainer__Slider__ContainerText">
+                <h3 class="MenuContainer__Slider__Title">Juice</h3>
+                <p class="MenuContainer__Slider__Text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
             </div>
-            <div class="MenuContainer__Slider__Item swiper-slide">
-                <img src="./assets/menuAssets/Rectangle 38.png" class="MenuContainer__Slider__Imagen" alt="Marmalade" />
-                <div class="MenuContainer__Slider__ContainerText">
-                    <h3 class="MenuContainer__Slider__Title">Marmalade Selection</h3>
-                    <p class="MenuContainer__Slider__Text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </div>
+            <div class="MenuContainer__Slider__Item">
+              <img src="./assets/menuAssets/Rectangle 38.png" class="MenuContainer__Slider__Imagen" alt="Marmalade" />
+              <div class="MenuContainer__Slider__ContainerText">
+                <h3 class="MenuContainer__Slider__Title">Marmalade Selection</h3>
+                <p class="MenuContainer__Slider__Text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+            </div>
+            <div class="MenuContainer__Slider__Item">
+              <img src="./assets/menuAssets/Rectangle 38.png" class="MenuContainer__Slider__Imagen" alt="Otro" />
+              <div class="MenuContainer__Slider__ContainerText">
+                <h3 class="MenuContainer__Slider__Title">Otro</h3>
+                <p class="MenuContainer__Slider__Text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="MenuContainer__Slider__Item">
+              <img src="./assets/menuAssets/Rectangle 38.png" class="MenuContainer__Slider__Imagen" alt="Juice" />
+              <div class="MenuContainer__Slider__ContainerText">
+                <h3 class="MenuContainer__Slider__Title">Juice</h3>
+                <p class="MenuContainer__Slider__Text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+            </div>
+            <div class="MenuContainer__Slider__Item">
+              <img src="./assets/menuAssets/Rectangle 38.png" class="MenuContainer__Slider__Imagen" alt="Marmalade" />
+              <div class="MenuContainer__Slider__ContainerText">
+                <h3 class="MenuContainer__Slider__Title">Marmalade Selection</h3>
+                <p class="MenuContainer__Slider__Text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+            </div>
+            <div class="MenuContainer__Slider__Item">
+              <img src="./assets/menuAssets/Rectangle 38.png" class="MenuContainer__Slider__Imagen" alt="Otro" />
+              <div class="MenuContainer__Slider__ContainerText">
+                <h3 class="MenuContainer__Slider__Title">Otro</h3>
+                <p class="MenuContainer__Slider__Text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+            </div>
+          </div>
+            <div class="MenuContainer__Slider__Arrows">
+              <div  class="swiper-button-prev swiper-button-next--menu"></div>
+              <div  class="swiper-button-next swiper-button-next--menu"></div>
             </div>
         </div>
-
-        <div class="MenuContainer__Slider__Arrows">
-            <img src="./assets/menuAssets/Left arrow.png" alt="izquierda" id="MenuSliderIzquierda" class="MenuContainer__Slider__Arrows--izquierda swiper-button-prev" />
-            <img src="./assets/menuAssets/Right arrow.png" alt="derecha" id="MenuSliderDerecha" class="MenuContainer__Slider__Arrows--derecha swiper-button-next" />
-        </div>
-    </div>
       </article>
+      
+    </section>
+    
       <article class="MenuContainer__ArticleSlide">
         <img
           src="./assets/menuAssets/1.png"

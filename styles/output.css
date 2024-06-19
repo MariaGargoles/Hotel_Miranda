@@ -579,6 +579,29 @@ body {
   font-weight: 700;
 }
 
+.swiper {
+  width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  width: 3em;
+  height: 3em;
+  color: #FFF !important;
+  background-color: #BDAC8D !important;
+  display: inline-block;
+}
+.swiper-button-prev--menu, .swiper-button-next--menu {
+  color: #FFF;
+  transform: translateX(100%) translateY(-135%);
+  cursor: pointer;
+}
+
+.swiper-button-disabled {
+  background-color: #FFF;
+  color: #111;
+  font-weight: 700;
+}
+
 .footerContainer {
   background-image: url("../assets/footerAssets/bg.png");
   background-repeat: no-repeat;
