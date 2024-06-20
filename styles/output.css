@@ -629,8 +629,60 @@ body {
   color: #BEAD8E;
   padding-left: 0.25rem;
 }
-.MainSection__PresentVideo {
+.MainSection__PresentVideo__Video {
+  margin: 1rem;
+  padding-top: 3rem;
+  padding-left: 1rem;
+}
+.MainSection__PresentVideo__Text {
+  padding: 1rem;
+  font-size: 1.9em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.MainSection__IconsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.MainSection__IconsContainer__Item {
+  flex: 1 1 30%;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.7rem;
+  justify-content: center;
+  margin: 1rem;
+}
+.MainSection__IconsContainer__Item__Image {
+  padding-left: 1rem;
+}
+.MainSection__IconsContainer__Item__Text {
+  font-size: 0.7em;
+  color: black;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  padding-top: 1rem;
+}
+.MainSection__IconsContainer__Item__Text--active {
+  color: white;
+}
+.MainSection__IconsContainer__Item--active {
+  background-color: #BEAD8E;
+}
+.MainSection__ImageContainer {
+  width: 18.4rem;
+  height: 14.5rem;
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 2rem;
+}
+.MainSection__ImageContainer__Image {
   width: 100%;
+  padding-bottom: 2rem;
 }
 
 .swiper {
