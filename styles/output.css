@@ -673,6 +673,17 @@ body {
 .MainSection__IconsContainer__Item--active {
   background-color: #BEAD8E;
 }
+.MainSection__ImageContainer {
+  width: 18.4rem;
+  height: 14.5rem;
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 2rem;
+}
+.MainSection__ImageContainer__Image {
+  width: 100%;
+  padding-bottom: 2rem;
+}
 
 .swiper {
   width: 100%;
