@@ -573,13 +573,13 @@ body {
 }
 .MainSection__ArticleLuxury__Subtitle {
   font-size: 1em;
-  color: white;
-  padding: 1rem;
   font-family: "Archivo", sans-serif;
   font-weight: 700;
-  padding-top: 5rem;
   text-transform: uppercase;
   letter-spacing: 0.175rem;
+  color: white;
+  padding: 1rem;
+  padding-top: 5rem;
 }
 .MainSection__ArticleLuxury__Title {
   font-size: 3em;
@@ -606,6 +606,7 @@ body {
   font-weight: 700;
   font-size: 1em;
   padding-right: 0.25rem;
+  padding-left: 1rem;
 }
 .MainSection__ArticleLuxury__Container__About {
   font-family: "Archivo", sans-serif;
@@ -670,6 +671,135 @@ body {
   padding-bottom: 2rem;
 }
 
+.Restaurant {
+  margin: 3rem 2rem;
+}
+.Restaurant__Subtitle {
+  font-size: 1em;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  color: #777777;
+}
+.Restaurant__Title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 2.5em;
+  padding-top: 1.5rem;
+}
+.Restaurant__Text {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #777777;
+  padding-top: 2rem;
+}
+.Restaurant__Button {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  color: white;
+  background-color: #BEAD8E;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  width: 70%;
+  height: 3.6rem;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.Facilities {
+  background-color: #222222;
+  padding: 3rem 1.5rem;
+}
+.Facilities__Subtitle {
+  font-size: 1em;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  color: white;
+  text-align: center;
+}
+.Facilities__Title {
+  font-size: 3em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+.Facilities__ContainerSlider {
+  background-color: #292929;
+  padding: 3rem 1.5rem;
+}
+.Facilities__HighText {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 2em;
+  color: white;
+  padding-top: 1rem;
+}
+.Facilities__Text {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  color: white;
+  padding-top: 1rem;
+}
+.Facilities__ContainerImages {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Counter {
+  margin: 3rem 1rem;
+}
+.Counter__Subtitle {
+  font-size: 1em;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  padding-top: 2rem;
+}
+.Counter__Title {
+  font-size: 3em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  padding-top: 2rem;
+}
+.Counter__Container {
+  padding-top: 4rem;
+  width: 100%;
+}
+.Counter__Container__container {
+  display: inline-flex;
+  padding: 2rem;
+}
+.Counter__Container__img {
+  width: 5rem;
+  height: 5rem;
+  padding-right: 1.5rem;
+}
+.Counter__Container__HardText {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 4em;
+  padding-right: 1.5rem;
+}
+.Counter__Container__Text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #777777;
+}
+.Counter__Container__Arrow {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+}
+
 .swiper {
   margin: 1rem;
 }
@@ -696,6 +826,10 @@ body {
 .swiper-button-disabled {
   background-color: #FFF !important;
   color: #111 !important;
+}
+
+.swiper-pagination {
+  background-color: #BEAD8E !important;
 }
 
 .footerContainer {

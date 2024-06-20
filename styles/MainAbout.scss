@@ -1,3 +1,5 @@
+@import "mixin.scss";
+
 .MainSection {
 margin-top: 2rem;
 padding-top: 2rem;
@@ -5,21 +7,15 @@ padding-top: 2rem;
     &__ArticleLuxury {
         background-color: #333333 !important;
         &__Subtitle {
-            font-size: 1em;
+            @include subtitle;
             color: white;
             padding: 1rem;
-            font-family: "Archivo", sans-serif;
-            font-weight: 700;
             padding-top: 5rem;
-            text-transform: uppercase;
-            letter-spacing: 0.175rem;
             
         }
 
         &__Title {
-            font-size: 3em;
-            font-family: "Old Standard TT", serif;
-            font-weight: 400;
+            @include title;
             padding-bottom: 2rem;
             margin-right: 1rem;
             color: white;
@@ -43,6 +39,7 @@ padding-top: 2rem;
                 font-weight: 700;
                 font-size: 1em;
                 padding-right: 0.25rem;
+                padding-left: 1rem;
             }
 
             &__About {
@@ -127,6 +124,132 @@ padding-top: 2rem;
         &__Image {
             width: 100%;
             padding-bottom: 2rem;
+        }
+    }
+}
+.Restaurant {
+    margin: 3rem 2rem;
+
+    &__Subtitle {
+        @include subtitle;
+        color:#777777;
+
+        
+        
+    }
+
+    &__Title {
+        font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        font-size: 2.5em;
+        padding-top: 1.5rem;
+    }
+
+    &__Text {
+        @include SimpleText;
+        padding-top: 2rem;
+
+    }
+
+    &__Button {
+        @include BeigeButton;
+        width: 70%;
+        height: 3.6rem;
+        text-align: center;
+        margin-top: 1.5rem;
+        
+    }
+}
+
+.Facilities {
+    background-color: #222222;
+    padding: 3rem 1.5rem;
+    
+    &__Subtitle {
+        @include subtitle;
+        color: white;
+        text-align: center;
+    }
+
+    &__Title {
+        @include title;
+        color: white;
+        text-align: center;
+    }
+
+    &__ContainerSlider {
+        background-color: #292929;
+        padding: 3rem 1.5rem;
+        
+    }
+
+    &__HighText {
+        font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        font-size: 2em;
+        color: white;
+        padding-top: 1rem;
+    }
+
+    &__Text {
+        font-family: "Archivo", sans-serif;
+        font-weight: 400;
+        color: white;
+        padding-top: 1rem;
+        
+
+    }
+    &__ContainerImages {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.Counter {
+    margin: 3rem 1rem;
+
+    &__Subtitle {
+        @include subtitle;
+        padding-top: 2rem;
+    }
+    &__Title {
+        @include title;
+        padding-top: 2rem;
+    }
+    &__Container {
+        padding-top: 4rem;
+        width: 100%;
+        
+        
+        &__container {
+            display: inline-flex;
+            padding: 2rem;
+            
+        }
+
+        &__img {
+            width: 5rem;
+            height: 5rem;
+            padding-right: 1.5rem;
+        }
+        &__HardText {
+            font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        font-size: 4em;
+        padding-right: 1.5rem;
+        }
+
+        &__Text {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            color: #777777;
+            
+        }
+
+        &__Arrow {
+            width: 3rem;
+            height: 3rem;
+            margin: 0 auto;
         }
     }
 }
