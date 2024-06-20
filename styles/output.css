@@ -629,8 +629,18 @@ body {
   color: #BEAD8E;
   padding-left: 0.25rem;
 }
-.MainSection__PresentVideo {
-  width: 100%;
+.MainSection__PresentVideo__Video {
+  margin: 1rem;
+  padding-top: 3rem;
+  padding-left: 1rem;
+}
+.MainSection__PresentVideo__Text {
+  padding: 1rem;
+  font-size: 1.9em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  padding-bottom: 2rem;
+  text-align: center;
 }
 
 .swiper {

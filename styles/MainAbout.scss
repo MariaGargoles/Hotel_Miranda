@@ -59,6 +59,22 @@ padding-top: 2rem;
         
     }
     &__PresentVideo {
-        width: 100%;
+       
+
+        &__Video {
+            
+            margin: 1rem;
+            padding-top: 3rem;
+            padding-left: 1rem;
+        }
+
+        &__Text {
+        padding: 1rem;
+        font-size: 1.9em;
+        font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        padding-bottom: 2rem;
+        text-align: center;
+        }
     }
 }
