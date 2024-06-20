@@ -1,3 +1,5 @@
+@import "mixin.scss";
+
 .MainSection {
 margin-top: 2rem;
 padding-top: 2rem;
@@ -5,21 +7,15 @@ padding-top: 2rem;
     &__ArticleLuxury {
         background-color: #333333 !important;
         &__Subtitle {
-            font-size: 1em;
+            @include subtitle;
             color: white;
             padding: 1rem;
-            font-family: "Archivo", sans-serif;
-            font-weight: 700;
             padding-top: 5rem;
-            text-transform: uppercase;
-            letter-spacing: 0.175rem;
             
         }
 
         &__Title {
-            font-size: 3em;
-            font-family: "Old Standard TT", serif;
-            font-weight: 400;
+            @include title;
             padding-bottom: 2rem;
             margin-right: 1rem;
             color: white;
@@ -43,6 +39,7 @@ padding-top: 2rem;
                 font-weight: 700;
                 font-size: 1em;
                 padding-right: 0.25rem;
+                padding-left: 1rem;
             }
 
             &__About {
@@ -128,5 +125,38 @@ padding-top: 2rem;
             width: 100%;
             padding-bottom: 2rem;
         }
+    }
+}
+.Restaurant {
+    margin: 3rem 2rem;
+
+    &__Subtitle {
+        @include subtitle;
+        color:#777777;
+
+        
+        
+    }
+
+    &__Title {
+        font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        font-size: 2.5em;
+        padding-top: 1.5rem;
+    }
+
+    &__Text {
+        @include SimpleText;
+        padding-top: 2rem;
+
+    }
+
+    &__Button {
+        @include BeigeButton;
+        width: 70%;
+        height: 3.6rem;
+        text-align: center;
+        margin-top: 1.5rem;
+        
     }
 }

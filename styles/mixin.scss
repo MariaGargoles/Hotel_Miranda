@@ -1,0 +1,32 @@
+@mixin subtitle {
+    font-size: 1em;
+    font-family: "Archivo", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.175rem;
+  }
+
+@mixin title {
+    font-size: 3em;
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+}  
+
+@mixin SimpleText {
+    font-family: "Archivo", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #777777;
+}
+
+@mixin BeigeButton {
+    font-family: "Archivo", sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: #BEAD8E;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.175rem;
+}

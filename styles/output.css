@@ -573,13 +573,13 @@ body {
 }
 .MainSection__ArticleLuxury__Subtitle {
   font-size: 1em;
-  color: white;
-  padding: 1rem;
   font-family: "Archivo", sans-serif;
   font-weight: 700;
-  padding-top: 5rem;
   text-transform: uppercase;
   letter-spacing: 0.175rem;
+  color: white;
+  padding: 1rem;
+  padding-top: 5rem;
 }
 .MainSection__ArticleLuxury__Title {
   font-size: 3em;
@@ -606,6 +606,7 @@ body {
   font-weight: 700;
   font-size: 1em;
   padding-right: 0.25rem;
+  padding-left: 1rem;
 }
 .MainSection__ArticleLuxury__Container__About {
   font-family: "Archivo", sans-serif;
@@ -668,6 +669,46 @@ body {
 .MainSection__ImageContainer__Image {
   width: 100%;
   padding-bottom: 2rem;
+}
+
+.Restaurant {
+  margin: 3rem 2rem;
+}
+.Restaurant__Subtitle {
+  font-size: 1em;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  color: #777777;
+}
+.Restaurant__Title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 2.5em;
+  padding-top: 1.5rem;
+}
+.Restaurant__Text {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #777777;
+  padding-top: 2rem;
+}
+.Restaurant__Button {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  color: white;
+  background-color: #BEAD8E;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  width: 70%;
+  height: 3.6rem;
+  text-align: center;
+  margin-top: 1.5rem;
 }
 
 .swiper {
