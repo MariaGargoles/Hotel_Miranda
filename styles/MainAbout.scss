@@ -1,0 +1,64 @@
+.MainSection {
+margin-top: 2rem;
+padding-top: 2rem;
+  
+    &__ArticleLuxury {
+        background-color: #333333 !important;
+        &__Subtitle {
+            font-size: 1em;
+            color: white;
+            padding: 1rem;
+            font-family: "Archivo", sans-serif;
+            font-weight: 700;
+            padding-top: 5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.175rem;
+            
+        }
+
+        &__Title {
+            font-size: 3em;
+            font-family: "Old Standard TT", serif;
+            font-weight: 400;
+            padding-bottom: 2rem;
+            margin-right: 1rem;
+            color: white;
+            padding-left: 1rem;
+            
+        }
+
+        &__Container {
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            width: 38%;
+            text-align: center;
+            padding-bottom: 1rem;
+            padding-top: 1rem;
+            transform: translateX(140%);
+            padding-right: 1rem;
+
+            &__Home {
+                font-family: "Archivo", sans-serif;
+                font-weight: 700;
+                font-size: 1em;
+                padding-right: 0.25rem;
+            }
+
+            &__About {
+                font-family: "Archivo", sans-serif;
+                font-weight: 700;
+                font-size: 1em;
+                color: #BEAD8E;
+                padding-left: 0.25rem;
+            }
+            
+        }
+        
+        
+        
+    }
+    &__PresentVideo {
+        width: 100%;
+    }
+}

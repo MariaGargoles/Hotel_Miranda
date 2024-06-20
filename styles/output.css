@@ -579,6 +579,60 @@ body {
   font-weight: 700;
 }
 
+.MainSection {
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+.MainSection__ArticleLuxury {
+  background-color: #333333 !important;
+}
+.MainSection__ArticleLuxury__Subtitle {
+  font-size: 1em;
+  color: white;
+  padding: 1rem;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  padding-top: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+}
+.MainSection__ArticleLuxury__Title {
+  font-size: 3em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  padding-bottom: 2rem;
+  margin-right: 1rem;
+  color: white;
+  padding-left: 1rem;
+}
+.MainSection__ArticleLuxury__Container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 38%;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  transform: translateX(140%);
+  padding-right: 1rem;
+}
+.MainSection__ArticleLuxury__Container__Home {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  padding-right: 0.25rem;
+}
+.MainSection__ArticleLuxury__Container__About {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: #BEAD8E;
+  padding-left: 0.25rem;
+}
+.MainSection__PresentVideo {
+  width: 100%;
+}
+
 .swiper {
   width: 100%;
 }
