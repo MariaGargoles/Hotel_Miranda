@@ -160,3 +160,43 @@ padding-top: 2rem;
         
     }
 }
+
+.Facilities {
+    background-color: #222222;
+    padding: 3rem 1.5rem;
+    
+    &__Subtitle {
+        @include subtitle;
+        color: white;
+        text-align: center;
+    }
+
+    &__Title {
+        @include title;
+        color: white;
+        text-align: center;
+    }
+
+    &__ContainerSlider {
+        background-color: #292929;
+        padding: 3rem 1.5rem;
+        
+    }
+
+    &__HighText {
+        font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        font-size: 2em;
+        color: white;
+        padding-top: 1rem;
+    }
+
+    &__Text {
+        font-family: "Archivo", sans-serif;
+        font-weight: 400;
+        color: white;
+        padding-top: 1rem;
+        
+
+    }
+}

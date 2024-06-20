@@ -711,6 +711,44 @@ body {
   margin-top: 1.5rem;
 }
 
+.Facilities {
+  background-color: #222222;
+  padding: 3rem 1.5rem;
+}
+.Facilities__Subtitle {
+  font-size: 1em;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  color: white;
+  text-align: center;
+}
+.Facilities__Title {
+  font-size: 3em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+.Facilities__ContainerSlider {
+  background-color: #292929;
+  padding: 3rem 1.5rem;
+}
+.Facilities__HighText {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 2em;
+  color: white;
+  padding-top: 1rem;
+}
+.Facilities__Text {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  color: white;
+  padding-top: 1rem;
+}
+
 .swiper {
   margin: 1rem;
 }
@@ -737,6 +775,10 @@ body {
 .swiper-button-disabled {
   background-color: #FFF !important;
   color: #111 !important;
+}
+
+.swiper-pagination {
+  background-color: #BEAD8E !important;
 }
 
 .footerContainer {

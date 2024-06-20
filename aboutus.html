@@ -23,6 +23,13 @@
       rel="stylesheet"
     />
     <script src="./js/HambMenu.js" defer></script>
+    <script src="./js/swiper.js"></script>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <title>About us</title>
   </head>
   <body>
@@ -172,13 +179,71 @@
         <button class="Restaurant__Button">Take a Tour</button>
       </article>
     </section>
-    <section>
-      <h3>Facilities</h3>
-      <h2>Core Features</h2>
-      <article>
-        <img src=""/>
+    <section class="Facilities">
+      <h3 class="Facilities__Subtitle">Facilities</h3>
+      <h2 class="Facilities__Title">Core Features</h2>
+      <div class="swiper swiper--facilities Facilities__ContainerSlider">
+        <div class="swiper-wrapper">
 
-      </article>
+            <div class="swiper-slide">
+                    <div class="Facilities__ContainerImages">
+                    <img class="Facilities__Icon" src="./assets/AboutPageAssets/icon 1.png"/>
+                    <img class="Facilities__Number" src="./assets/AboutPageAssets/01.png" />
+                    </div>
+                    <h3 class="Facilities__HighText">Have High Rating</h3>
+                    <p class="Facilities__Text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+            </div>
+
+            <div class="swiper-slide">
+                  <div class="Facilities__ContainerImages">
+                  <img class="Facilities__Icon" src="./assets/AboutPageAssets/icon 2.png"/>
+                  <img class="Facilities__Number" src="./assets/AboutPageAssets/01.png" />
+                  </div>
+                  <h3 class="Facilities__HighText">Quiet Hours</h3>
+                  <p class="Facilities__Text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+            </div>  
+
+            <div class="swiper-slide">
+                  <div class="Facilities__ContainerImages">
+                  <img class="Facilities__Icon" src="./assets/AboutPageAssets/svg-gobbler - 2022-03-02T121743.699 1.png"/>
+                  <img class="Facilities__Number" src="./assets/AboutPageAssets/01.png" />
+                  </div>
+                  <h3 class="Facilities__HighText">Best Locations</h3>
+                  <p class="Facilities__Text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+            </div> 
+
+          <div class="swiper-slide">
+                <div class="Facilities__ContainerImages">
+                <img class="Facilities__Icon" src="./assets/AboutPageAssets/icon 3.png"/>
+                <img class="Facilities__Number" src="./assets/AboutPageAssets/01.png" />
+                </div>
+                <h3 class="Facilities__HighText">Free Cancellation</h3>
+                <p class="Facilities__Text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+          </div> 
+
+          <div class="swiper-slide">
+              <div class="Facilities__ContainerImages">
+              <img class="Facilities__Icon" src="./assets/AboutPageAssets/svg-gobbler - 2022-03-02T122355.693 1.png"/>
+              <img class="Facilities__Number" src="./assets/AboutPageAssets/01.png" />
+              </div>
+              <h3 class="Facilities__HighText">Payment Options</h3>
+              <p class="Facilities__Text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+          </div> 
+
+          <div class="swiper-slide">
+
+            <div class="Facilities__ContainerImages">
+            <img class="Facilities__Icon" src="./assets/AboutPageAssets/svg-gobbler - 2022-03-02T124650.380 1.png"/>
+            <img class="Facilities__Number" src="./assets/AboutPageAssets/01.png" />
+            </div>
+            <h3 class="Facilities__HighText">Special Offers</h3>
+            <p class="Facilities__Text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+          </div> 
+          
+        </div>
+        <div class="swiper-pagination swiper-pagination--facilities"></div>
+      </div>
     </section>
+    
   </body>
 </html>
