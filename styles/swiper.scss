@@ -1,5 +1,12 @@
 .swiper {
-    width: 100%;}
+   
+    margin: 1rem;
+}
+
+.swiper-slide {
+    margin: 1rem;
+    position: relative !important;
+}
 
 .swiper-button-prev, .swiper-button-next {
     width: 3em;
@@ -7,16 +14,21 @@
     color: #FFF !important;
     background-color: #BDAC8D !important;
     display: inline-block;
+    cursor: pointer;
 
     &--menu {
-        color: #FFF;
-        transform: translateX(100%) translateY(-135%);
-        cursor: pointer;
+        margin: 0 auto !important;
+        position: absolute !important;
+        top: 95% !important;
+        
+        
+        
+        
     }
 }
 
 .swiper-button-disabled {
-    background-color: #FFF;
-    color: #111;
-    font-weight: 700;
+    background-color: #FFF !important;
+    color: #111 !important;
+    
 }
