@@ -642,6 +642,37 @@ body {
   padding-bottom: 2rem;
   text-align: center;
 }
+.MainSection__IconsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.MainSection__IconsContainer__Item {
+  flex: 1 1 30%;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.7rem;
+  justify-content: center;
+  margin: 1rem;
+}
+.MainSection__IconsContainer__Item__Image {
+  padding-left: 1rem;
+}
+.MainSection__IconsContainer__Item__Text {
+  font-size: 0.7em;
+  color: black;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  padding-top: 1rem;
+}
+.MainSection__IconsContainer__Item__Text--active {
+  color: white;
+}
+.MainSection__IconsContainer__Item--active {
+  background-color: #BEAD8E;
+}
 
 .swiper {
   width: 100%;

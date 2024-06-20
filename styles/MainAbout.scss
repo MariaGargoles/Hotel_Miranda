@@ -77,4 +77,43 @@ padding-top: 2rem;
         text-align: center;
         }
     }
+
+    &__IconsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem;
+
+        &__Item {
+            flex: 1 1 calc(30%);
+            align-items: center;
+            flex-direction: column;
+            padding: 0.7rem;
+            justify-content: center;
+            margin: 1rem;
+
+
+            &__Image {
+                padding-left: 1rem;
+            }
+            &__Text {
+                font-size: 0.7em;
+                color: black;
+                font-family: "Archivo", sans-serif;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.175rem;
+                padding-top: 1rem;
+
+                &--active {
+                    color: white;
+
+                }
+            }
+
+            &--active {
+                background-color: #BEAD8E;
+            }
+            
+        }
+    }
 }
