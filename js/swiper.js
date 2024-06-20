@@ -16,3 +16,9 @@ const swiperFacilities = new Swiper(".swiper--facilities", {
     clickable: true,
   },
 });
+
+var swiper = new Swiper(".mySwiper", {
+  pagination: {
+    el: ".swiper-pagination",
+  },
+});

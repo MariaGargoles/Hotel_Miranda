@@ -748,6 +748,57 @@ body {
   color: white;
   padding-top: 1rem;
 }
+.Facilities__ContainerImages {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Counter {
+  margin: 3rem 1rem;
+}
+.Counter__Subtitle {
+  font-size: 1em;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  padding-top: 2rem;
+}
+.Counter__Title {
+  font-size: 3em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  padding-top: 2rem;
+}
+.Counter__Container {
+  padding-top: 4rem;
+  width: 100%;
+}
+.Counter__Container__container {
+  display: inline-flex;
+  padding: 2rem;
+}
+.Counter__Container__img {
+  width: 5rem;
+  height: 5rem;
+  padding-right: 1.5rem;
+}
+.Counter__Container__HardText {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 4em;
+  padding-right: 1.5rem;
+}
+.Counter__Container__Text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #777777;
+}
+.Counter__Container__Arrow {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+}
 
 .swiper {
   margin: 1rem;
