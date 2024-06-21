@@ -182,37 +182,54 @@
     <section class="RoomSlideContainer">
       <h3 class="RoomSlideContainer__Subtitle">Rooms</h3>
       <h2 class="RoomSlideContainer__Title">Hand Picked Rooms</h2>
-
       <img
         class="RoomSlideContainer__Icons"
         src="./assets/roomAssets/Frame 57.png"
       />
-      <img
-        class="RoomSlideContainer__Slide"
-        src="./assets/RoomPageAssets/Room1.JPG"/>
-      />
-      <div class="RoomSlideContainer__ContenedorFlechas">
-        <img
-          class="RoomSlideContainer__ContenedorFlechas__Izquierda"
-          src="./assets/roomAssets/izq.png"
-        />
-        <img
-          class="RoomSlideContainer__ContenedorFlechas__Derecha"
-          src="./assets/roomAssets/dere.png"
-        />
-      </div>
-      <div class="RoomSlideContainer__Minimal">
-        <h3 class="RoomSlideContainer__TitleMinimal">Minimal Duplex Room</h3>
-        <p class="RoomSlideContainer__Text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore.
-        </p>
-        <div class="RoomSlideContainer__ContainerPrice">
-          <p class="RoomSlideContainer__ContainerPrice__Price">$345</p>
-          <p class="RoomSlideContainer__ContainerPrice__Price__Text">/Night</p>
+      <div class="swiper swiper--rooms">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img class="RoomSlideContainer__Slide" src="./assets/roomAssets/individual.jpg" alt="individual">
+                <article>
+                    <h2 class="RoomSlideContainer__TitleMinimal">Individual Room</h2>
+                    <h4 class="RoomSlideContainer__Text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</h4>
+                    <div class="RoomSlideContainer__ContainerPrice">
+                        <p class="RoomSlideContainer__ContainerPrice__Price">$90</p>
+                        <p class="RoomSlideContainer__ContainerPrice__Price__Text">/Night</p>
+                    </div>
+                </article>
+            </div>
+            <div class="swiper-slide">
+                <img class="RoomSlideContainer__Slide" src="./assets/roomAssets/double.jpg" alt="double">
+                <article>
+                    <h2 class="RoomSlideContainer__TitleMinimal">Double Room</h2>
+                    <h4 class="RoomSlideContainer__Text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</h4>
+                    <div class="RoomSlideContainer__ContainerPrice">
+                        <p class="RoomSlideContainer__ContainerPrice__Price">$150</p>
+                        <p class="RoomSlideContainer__ContainerPrice__Price__Text">/Night</p>
+                    </div>
+                </article>
+            </div>
+            <div class="swiper-slide">
+                <img class="RoomSlideContainer__Slide" src="./assets/roomAssets/suite.jpg" alt="suite">
+                <article>
+                    <h2 class="RoomSlideContainer__TitleMinimal">Suite Room</h2>
+                    <h4 class="RoomSlideContainer__Text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</h4>
+                    <div class="RoomSlideContainer__ContainerPrice">
+                        <p class="RoomSlideContainer__ContainerPrice__Price">$250</p>
+                        <p class="RoomSlideContainer__ContainerPrice__Price__Text">/Night</p>
+                    </div>
+                </article>
+            </div>
         </div>
-      </div>
+        <div class="swiper-button-next swiper-button-next--rooms"></div>
+        <div class="swiper-button-prev swiper-button-prev--rooms"></div>
+    </div>
+    
+
     </section>
+    
+      
     <section class="IntroVideoContainer">
       <h3 class="IntroVideoContainer__Subtitle">Intro video</h3>
       <h2 class="IntroVideoContainer__Title">Meet With Our Luxury Place.</h2>
@@ -235,7 +252,7 @@
       <h1 class="FacilitiesContainer__Title">Core Features</h1>
       <div class="swiper swiper--facilities">
           <div class="swiper-wrapper FacilitiesContainer__Wrapper">
-              <div class="swiper-slide FacilitiesContainer__Slide">
+              <div class="swiper-slide">
                   <div class="FacilitiesContainer__ImgContainer">
                       <img class="FacilitiesContainer__icon" src="./assets/facilitiesAssets/icon 1.png" alt="stars" />
                       <h2  class="FacilitiesContainer__number">01</h2>
@@ -284,17 +301,19 @@
                   <p class="FacilitiesContainer__Text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
               </div>
           </div>
-          <div class="swiper-pagination swiper-pagination--facilities"></div>
+          <div class="swiper-pagination"></div>
       </div>
   </section>
       
     </section>
     <section class="MenuContainer">
+      <img src="./assets/menuAssets/icon 4.png" class="MenuContainer__Imagen"/>
       <h3 class="MenuContainer__Subtitle">Menu</h3>
-      <h2 class="MenuContainer__Title">Our Foods Menu</h2>
+      <h2 class="MenuContainer__Title">Our Foods </br>Menu</h2>
+      
       <div class="swiper swiper--menu MenuContainer__Slider">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">
+            <div class="swiper-slide swiper-slide--menu">
                 <article class="MenuContainer__Slider__Item">
                     <img src="./assets/menuAssets/huevos.jpg" alt="bacon" class="MenuContainer__Slider__Imagen"/>
                     <div class="MenuContainer__Slider__ContainerText">

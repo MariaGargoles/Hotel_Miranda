@@ -2,6 +2,7 @@
     display: block;
     padding: 1rem;
     
+    
     &__Subtitle {
     font-family: "Archivo", sans-serif;
     font-weight: 600;
@@ -10,6 +11,12 @@
     letter-spacing: 0.175rem;
     color: #777777;
     padding-bottom: 1rem;
+    
+    }
+
+    &__Imagen {
+
+        transform: translateX(347%) translateY(17%);
     
     }
 

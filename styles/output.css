@@ -273,17 +273,16 @@ body {
 
 .RoomSlideContainer {
   display: block;
-  position: relative;
   margin-bottom: 18rem;
 }
 .RoomSlideContainer__Subtitle {
+  font-size: 1em;
   font-family: "Archivo", sans-serif;
-  font-weight: 600;
-  color: #777777;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
   padding: 1rem;
   text-align: center;
-  letter-spacing: 0.1rem;
-  text-transform: uppercase;
   margin-top: 1rem;
 }
 .RoomSlideContainer__Slide {
@@ -301,16 +300,6 @@ body {
 }
 .RoomSlideContainer__Icons {
   transform: translateX(15%) translateY(66%);
-}
-.RoomSlideContainer__ContenedorFlechas {
-  display: flex;
-  justify-content: space-around;
-}
-.RoomSlideContainer__ContenedorFlechas__Izquierda {
-  transform: translateX(-151%) translateY(-370%);
-}
-.RoomSlideContainer__ContenedorFlechas__Derecha {
-  transform: translateX(165%) translateY(-370%);
 }
 .RoomSlideContainer__TitleMinimal {
   font-size: 2em;
@@ -416,10 +405,7 @@ body {
 
 .FacilitiesContainer {
   display: block;
-  padding-bottom: 3rem;
-}
-.FacilitiesContainer__Slide {
-  margin: 0 auto;
+  padding-bottom: 1rem;
 }
 .FacilitiesContainer__Wrapper {
   padding-bottom: 3rem;
@@ -485,6 +471,9 @@ body {
   letter-spacing: 0.175rem;
   color: #777777;
   padding-bottom: 1rem;
+}
+.MenuContainer__Imagen {
+  transform: translateX(347%) translateY(17%);
 }
 .MenuContainer__Title {
   font-size: 3em;
@@ -808,6 +797,10 @@ body {
 
 .swiper {
   margin: 1rem;
+}
+
+.swiper-slide--menu {
+  padding-bottom: 4rem;
 }
 
 .swiper-wrapper {

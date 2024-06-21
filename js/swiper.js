@@ -14,6 +14,13 @@ const swiperFacilities = new Swiper(".swiper--facilities", {
   },
 });
 
+const swiperHomeRoom = new Swiper(".swiper--rooms", {
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
 const swiper = new Swiper(".mySwiper", {
   pagination: {
     el: ".swiper-pagination",
