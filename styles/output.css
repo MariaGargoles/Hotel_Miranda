@@ -965,4 +965,49 @@ body {
   padding-left: 0.25rem;
 }
 
+.RoomsSwiper__Card {
+  margin: 3rem 1rem;
+}
+.RoomsSwiper__Card__Title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 1.8em;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+.RoomsSwiper__Card__Text {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  color: #777777;
+  font-size: 1em;
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-top: 1rem;
+}
+.RoomsSwiper__ContainerImages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 22.5rem;
+  height: 14rem;
+}
+.RoomsSwiper__ContainerImages__image {
+  width: 100%;
+}
+.RoomsSwiper__ContainerImages__wifi {
+  transform: translateY(-30%);
+}
+.RoomsSwiper__ContainerButton {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+}
+.RoomsSwiper__ContainerButton__Text {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: #BEAD8E;
+}
+
 /*# sourceMappingURL=output.css.map */
