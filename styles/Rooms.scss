@@ -1,0 +1,94 @@
+.Rooms {
+    
+    background-color:#333333;
+
+    &__Main {
+        padding-top: 2rem;
+        
+        padding: 5rem 1rem;
+
+        &__Subtitle {
+            @include subtitle;
+            padding-top: 3rem;
+            color: #ffff;
+        }
+
+        &__Title {
+            @include title;
+            padding-top: 1rem;
+            color: #ffff;
+        }
+
+        &__Container {
+            @include ContainerDuple;
+            
+            &__Home {
+                @include Home;
+            }
+            &__Rooms {
+                @include Secondary;
+            }
+
+        }
+    }
+
+    
+}
+
+.RoomsSwiper {
+
+    &__Card {
+        margin:  3rem 1rem;
+
+        &__Title {
+            font-family: "Old Standard TT", serif;
+            font-weight: 400;
+            font-size: 1.8em;
+            text-align: center;
+            padding-top: 1.5rem;
+        }
+
+        &__Text {
+            font-family: "Archivo", sans-serif;
+            font-weight: 400;
+            color: #777777;
+            font-size: 1em;
+            text-align: center;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            padding-top: 1rem;
+        }
+
+        
+    }
+    &__ContainerImages {
+        display:  flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 22.5rem;
+        height: 14rem;
+
+        &__image {
+            width: 100%;
+        }
+
+        &__wifi {
+            transform: translateY(-30%);
+        }
+    }
+
+   &__ContainerButton {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+
+    &__Text {
+        font-family: "Archivo", sans-serif;
+        font-weight: 700;
+        font-size: 1em;
+        color: #BEAD8E;
+        
+
+    }
+   }
+}

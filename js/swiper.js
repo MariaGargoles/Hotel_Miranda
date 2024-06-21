@@ -17,8 +17,18 @@ const swiperFacilities = new Swiper(".swiper--facilities", {
   },
 });
 
-var swiper = new Swiper(".mySwiper", {
+const swiper = new Swiper(".mySwiper", {
   pagination: {
     el: ".swiper-pagination",
+  },
+});
+
+const swiperRoom = new Swiper(".RoomsSwiper", {
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    renderBullet: function (index, className) {
+      return '<span class="' + className + '">' + (index + 1) + "</span>";
+    },
   },
 });

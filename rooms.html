@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/output.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./js/HambMenu.js" defer></script>
+    <script src="./js/swiper.js" defer></script>
+    -
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="NavarContainer">
+        <div class="NavarContainer__FirstPart">
+          <img
+            src="./assets/navbarAssets/MenuIcon.png"
+            class="NavarContainer__FirstPart__MenuIcon"
+            alt="Boton menu"
+            id="OpenButtonMenu"
+          />
+          <img
+            src="./assets/navbarAssets/H.png"
+            class="NavarContainer__FirstPart__H"
+            alt="H Icon"
+          />
+          <img
+            src="./assets/navbarAssets/Hotel Miranda.png"
+            class="NavarContainer__FirstPart__HotelMiranda"
+            alt="Hotel Miranda"
+          />
+        </div>
+  
+        <div class="NavarContainer__SecondPart">
+          <img
+            src="./assets/navbarAssets/account.png"
+            class="NavarContainer__SecondPart__Account"
+            alt="Cuenta"
+          />
+          <img
+            src="./assets/navbarAssets/search.png"
+            class="NavarContainer__SecondPart__Search"
+            alt="Buscar"
+          />
+          <img
+            src="./assets/navbarAssets/MenuIcon.png"
+            class="NavarContainer__SecondPart__MenuIcon"
+            alt="Boton menu"
+          />
+        </div>
+        <div
+          class="NavarContainer__SecondPart__MenuDesplegable"
+          id="HambuguerMenu"
+        >
+          <ul class="NavarContainer__SecondPart__MenuDesplegable__Contenedor">
+            <li class="NavarContainer__SecondPart__MenuDesplegable__list">
+              <a  href="./aboutus.html" class="NavarContainer__SecondPart__MenuDesplegable__link"
+                >About us</a
+              >
+            </li>
+            <li class="NavarContainer__SecondPart__MenuDesplegable__list">
+              <a  href="./rooms.html"  class="NavarContainer__SecondPart__MenuDesplegable__link"
+                >Rooms</a
+              >
+            </li>
+            <li class="NavarContainer__SecondPart__MenuDesplegable__list">
+              <a class="NavarContainer__SecondPart__MenuDesplegable__link"
+                >Offers</a
+              >
+            </li>
+            <li class="NavarContainer__SecondPart__MenuDesplegable__list">
+              <a class="NavarContainer__SecondPart__MenuDesplegable__link"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <section class="Rooms">
+      <div class="Rooms__Main">
+        <p class="Rooms__Main__Subtitle">THE ULTIMATE LUXURY</p>
+        <p class="Rooms__Main__Title">Ultimate</br> Room</p>
+      </div>
+
+      <div class="Rooms__Main__Container">
+        <p class="Rooms__Main__Container__Home">Home |</p>
+        <p class="Rooms__Main__Container__Rooms">Rooms</p>
+      </div>
+    </section>
+
+<div class="swiper RoomsSwiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="RoomsSwiper__Card">
+                <div class="RoomsSwiper__ContainerImages">
+                    <img  class="RoomsSwiper__ContainerImages__image"src="./assets/RoomPageAssets/Room1.JPG">
+                    <img class="RoomsSwiper__ContainerImages__wifi" src="./assets/RoomPageAssets/wifi.png">
+                </div>
+                    <h3 class="RoomsSwiper__Card__Title">Minimal Duplex Room</h3>
+                    <p class="RoomsSwiper__Card__Text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+
+                    <div class="RoomsSwiper__ContainerButton">
+                        <p class="RoomsSwiper__ContainerButton__Text">$345/Night</p>
+                        <button class="RoomsSwiper__ContainerButton__Button">Booking Now</button>
+                      </div>
+            </div> 
+
+            <div class="RoomsSwiper__Card">
+                <div class="RoomsSwiper__ContainerImages">
+                    <img class="RoomsSwiper__ContainerImages__image" src="./assets/RoomPageAssets/Room2.JPG">
+                    <img class="RoomsSwiper__ContainerImages__wifi" src="./assets/RoomPageAssets/wifi.png">
+                </div>
+                <h3 class="RoomsSwiper__Card__Title">Minimal Duplex Room</h3>
+                <p class="RoomsSwiper__Card__Text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+                <div class="RoomsSwiper__ContainerButton">
+                    <p class="RoomsSwiper__ContainerButton__Text">$345/Night</p>
+                    <button class="RoomsSwiper__ContainerButton__Button">Booking Now</button>
+                  </div> 
+            </div>
+
+            <div class="RoomsSwiper__Card">
+                <div class="RoomsSwiper__ContainerImages">
+                    <img  class="RoomsSwiper__ContainerImages__image" src="./assets/RoomPageAssets/Room3.JPG">
+                    <img class="RoomsSwiper__ContainerImages__wifi" src="./assets/RoomPageAssets/wifi.png">
+                </div>
+                <h3 class="RoomsSwiper__Card__Title">Minimal Duplex Room</h3>
+                <p class="RoomsSwiper__Card__Text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+                  
+                <div class="RoomsSwiper__ContainerButton">
+                    <p class="RoomsSwiper__ContainerButton__Text">$345/Night</p>
+                    <button class="RoomsSwiper__ContainerButton__Button">Booking Now</button>
+                  </div>  
+            </div>
+
+            <div class="RoomsSwiper__Card">
+                <div class="RoomsSwiper__ContainerImages">
+                    <img class="RoomsSwiper__ContainerImages__image" src="./assets/RoomPageAssets/Room4.JPG">
+                    <img class="RoomsSwiper__ContainerImages__wifi" src="./assets/RoomPageAssets/wifi.png">
+                </div>
+                <h3 class="RoomsSwiper__Card__Title">Minimal Duplex Room</h3>
+                <p class="RoomsSwiper__Card__Text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+
+                  <div class="RoomsSwiper__ContainerButton">
+                    <p class="RoomsSwiper__ContainerButton__Text">$345/Night</p>
+                    <button class="RoomsSwiper__ContainerButton__Button">Booking Now</button>
+                  </div>  
+            </div>
+
+            <div class="RoomsSwiper__Card">
+                <div class="RoomsSwiper__ContainerImages">
+                    <img class="RoomsSwiper__ContainerImages__image" src="./assets/RoomPageAssets/Room5.JPG">
+                    <img class="RoomsSwiper__ContainerImages__wifi" src="./assets/RoomPageAssets/wifi.png">
+                </div>
+                <h3 class="RoomsSwiper__Card__Title">Minimal Duplex Room</h3>
+                <p class="RoomsSwiper__Card__Text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+
+                <div class="RoomsSwiper__ContainerButton">
+                    <p class="RoomsSwiper__ContainerButton__Text">$345/Night</p>
+                    <button class="RoomsSwiper__ContainerButton__Button">Booking Now</button>
+                  </div>  
+            </div>
+
+            <div class="RoomsSwiper__Card">
+                <div class="RoomsSwiper__ContainerImages">
+                    <img class="RoomsSwiper__ContainerImages__image" src="./assets/RoomPageAssets/Room6.jp.JPG">
+                    <img class="RoomsSwiper__ContainerImages__wifi" src="./assets/RoomPageAssets/wifi.png">
+                </div>
+                <h3 class="RoomsSwiper__Card__Title">Minimal Duplex Room</h3>
+                <p class="RoomsSwiper__Card__Text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+
+                <div class="RoomsSwiper__ContainerButton">
+                    <p class="RoomsSwiper__ContainerButton__Text">$345/Night</p>
+                    <button class="RoomsSwiper__ContainerButton__Button">Booking Now</button>
+                  </div>  
+            </div>
+
+      <div class="swiper-slide">
+            <div class="RoomsSwiper__Card">
+                <div class="RoomsSwiper__ContainerImages">
+                    <img class="RoomsSwiper__ContainerImages__image" src="./assets/RoomPageAssets/Room1.JPG">
+                    <img class="RoomsSwiper__ContainerImages__wifi" src="./assets/RoomPageAssets/wifi.png">
+                </div>
+                <h3 class="RoomsSwiper__Card__Title">Minimal Duplex Room</h3>
+                <p class="RoomsSwiper__Card__Text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+
+                <div class="RoomsSwiper__ContainerButton">
+                    <p class="RoomsSwiper__ContainerButton__Text">$345/Night</p>
+                    <button class="RoomsSwiper__ContainerButton__Button">Booking Now</button>
+                  </div>  
+            </div>
+
+            <div class="RoomsSwiper__Card">
+                <div class="RoomsSwiper__ContainerImages">
+                    <img class="RoomsSwiper__ContainerImages__image" src="./assets/RoomPageAssets/Room2.JPG">
+                    <img class="RoomsSwiper__ContainerImages__wifi" src="./assets/RoomPageAssets/wifi.png">
+                </div>
+                <h3 class="RoomsSwiper__Card__Title">Minimal Duplex Room</h3>
+                <p class="RoomsSwiper__Card__Text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+
+                <div class="RoomsSwiper__ContainerButton">
+                    <p class="RoomsSwiper__ContainerButton__Text">$345/Night</p>
+                    <button class="RoomsSwiper__ContainerButton__Button">Booking Now</button>
+                  </div>  
+            </div>
+
+            <div class="RoomsSwiper__Card">
+                <div class="RoomsSwiper__ContainerImages">
+                    <img class="RoomsSwiper__ContainerImages__image" src="./assets/RoomPageAssets/Room3.JPG">
+                    <img class="RoomsSwiper__ContainerImages__wifi" src="./assets/RoomPageAssets/wifi.png">
+                </div>
+                <h3 class="RoomsSwiper__Card__Title">Minimal Duplex Room</h3>
+                <p class="RoomsSwiper__Card__Text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+
+                <div class="RoomsSwiper__ContainerButton">
+                    <p class="RoomsSwiper__ContainerButton__Text">$345/Night</p>
+                    <button class="RoomsSwiper__ContainerButton__Button">Booking Now</button>
+                  </div>  
+            </div>
+
+            <div class="RoomsSwiper__Card">
+                <div class="RoomsSwiper__ContainerImages">
+                    <img class="RoomsSwiper__ContainerImages__image" src="./assets/RoomPageAssets/Room4.JPG">
+                    <img class="RoomsSwiper__ContainerImages__wifi" src="./assets/RoomPageAssets/wifi.png">
+                </div>
+                <h3 class="RoomsSwiper__Card__Title">Minimal Duplex Room</h3>
+                <p class="RoomsSwiper__Card__Text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+
+                <div class="RoomsSwiper__ContainerButton">
+                    <p class="RoomsSwiper__ContainerButton__Text">$345/Night</p>
+                    <button class="RoomsSwiper__ContainerButton__Button">Booking Now</button>
+                  </div>  
+            </div>
+
+            <div class="RoomsSwiper__Card">
+                <div class="RoomsSwiper__ContainerImages">
+                    <img class="RoomsSwiper__ContainerImages__image" src="./assets/RoomPageAssets/Room5.JPG">
+                    <img class="RoomsSwiper__ContainerImages__wifi" src="./assets/RoomPageAssets/wifi.png">
+                </div>
+                <h3 class="RoomsSwiper__Card__Title">Minimal Duplex Room</h3>
+                <p class="RoomsSwiper__Card__Text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+
+                <div class="RoomsSwiper__ContainerButton">
+                    <p class="RoomsSwiper__ContainerButton__Text">$345/Night</p>
+                    <button class="RoomsSwiper__ContainerButton__Button">Booking Now</button>
+                  </div>  
+            </div>
+
+            <div class="RoomsSwiper__Card">
+                <div class="RoomsSwiper__ContainerImages">
+                    <img class="RoomsSwiper__ContainerImages__image" src="./assets/RoomPageAssets/Room6.jp.JPG">
+                    <img class="RoomsSwiper__ContainerImages__wifi" src="./assets/RoomPageAssets/wifi.png">
+                </div>
+                <h3 class="RoomsSwiper__Card__Title">Minimal Duplex Room</h3>
+                <p class="RoomsSwiper__Card__Text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+
+                <div class="RoomsSwiper__ContainerButton">
+                    <p class="RoomsSwiper__ContainerButton__Text">$345/Night</p>
+                    <button class="RoomsSwiper__ContainerButton__Button">Booking Now</button>
+                  </div>  
+            </div>
+
+        <div class="swiper-slide">
+            <div class="RoomsSwiper__Card">
+                <div class="RoomsSwiper__ContainerImages">
+                    <img class="RoomsSwiper__ContainerImages__image" src="./assets/RoomPageAssets/Room1.JPG">
+                    <img class="RoomsSwiper__ContainerImages__wifi" src="./assets/RoomPageAssets/wifi.png">
+                </div>
+                <h3 class="RoomsSwiper__Card__Title">Minimal Duplex Room</h3>
+                <p class="RoomsSwiper__Card__Text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+
+                <div class="RoomsSwiper__ContainerButton">
+                    <p class="RoomsSwiper__ContainerButton__Text">$345/Night</p>
+                    <button class="RoomsSwiper__ContainerButton__Button">Booking Now</button>
+                  </div>  
+            </div>
+
+            <div class="RoomsSwiper__Card">
+                <div class="RoomsSwiper__ContainerImages">
+                    <img class="RoomsSwiper__ContainerImages__image" src="./assets/RoomPageAssets/Room2.JPG">
+                    <img class="RoomsSwiper__ContainerImages__wifi" src="./assets/RoomPageAssets/wifi.png">
+                </div>
+                <h3 class="RoomsSwiper__Card__Title">Minimal Duplex Room</h3>
+                <p class="RoomsSwiper__Card__Text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+
+                <div class="RoomsSwiper__ContainerButton">
+                    <p class="RoomsSwiper__ContainerButton__Text">$345/Night</p>
+                    <button class="RoomsSwiper__ContainerButton__Button">Booking Now</button>
+                  </div>  
+            </div>
+
+            <div class="RoomsSwiper__Card">
+                <div class="RoomsSwiper__ContainerImages">
+                    <img class="RoomsSwiper__ContainerImages__image" src="./assets/RoomPageAssets/Room3.JPG">
+                    <img class="RoomsSwiper__ContainerImages__wifi" src="./assets/RoomPageAssets/wifi.png">
+                </div>
+                <h3 class="RoomsSwiper__Card__Title">Minimal Duplex Room</h3>
+                <p class="RoomsSwiper__Card__Text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+
+                <div class="RoomsSwiper__ContainerButton">
+                    <p class="RoomsSwiper__ContainerButton__Text">$345/Night</p>
+                    <button class="RoomsSwiper__ContainerButton__Button">Booking Now</button>
+                  </div>  
+            </div>
+
+            <div class="RoomsSwiper__Card">
+                <div class="RoomsSwiper__ContainerImages">
+                    <img class="RoomsSwiper__ContainerImages__image" src="./assets/RoomPageAssets/Room4.JPG">
+                    <img class="RoomsSwiper__ContainerImages__wifi" src="./assets/RoomPageAssets/wifi.png">
+                </div>
+                <h3 class="RoomsSwiper__Card__Title">Minimal Duplex Room</h3>
+                <p class="RoomsSwiper__Card__Text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+
+                <div class="RoomsSwiper__ContainerButton">
+                    <p class="RoomsSwiper__ContainerButton__Text">$345/Night</p>
+                    <button class="RoomsSwiper__ContainerButton__Button">Booking Now</button>
+                  </div>  
+            </div>
+
+            <div class="RoomsSwiper__Card">
+                <div class="RoomsSwiper__ContainerImages">
+                    <img class="RoomsSwiper__ContainerImages__image" src="./assets/RoomPageAssets/Room5.JPG">
+                    <img class="RoomsSwiper__ContainerImages__wifi" src="./assets/RoomPageAssets/wifi.png">
+                </div>
+                <h3 class="RoomsSwiper__Card__Title">Minimal Duplex Room</h3>
+                <p class="RoomsSwiper__Card__Text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+
+                <div class="RoomsSwiper__ContainerButton">
+                    <p class="RoomsSwiper__ContainerButton__Text">$345/Night</p>
+                    <button class="RoomsSwiper__ContainerButton__Button">Booking Now</button>
+                  </div>  
+            </div>
+
+            <div class="RoomsSwiper__Card">
+                <div class="RoomsSwiper__ContainerImages">
+                    <img class="RoomsSwiper__ContainerImages__image" src="./assets/RoomPageAssets/Room6.jp.JPG">
+                    <img class="RoomsSwiper__ContainerImages__wifi" src="./assets/RoomPageAssets/wifi.png"/>
+                </div>
+                <h3 class="RoomsSwiper__Card__Title">Minimal Duplex Room</h3>
+                <p class="RoomsSwiper__Card__Text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+
+                <div class="RoomsSwiper__ContainerButton">
+                    <p class="RoomsSwiper__ContainerButton__Text">$345/Night</p>
+                    <button class="RoomsSwiper__ContainerButton__Button">Booking Now</button>
+                  </div>  
+            </div>
+ 
+    <div class="swiper-pagination"></div>
+  </div>
+
+    <footer class="footerContainer">
+      <img src="./assets/footerAssets/H.png" class="footerContainer__Imagen" />
+      <img
+        src="./assets/footerAssets/Hotel Miranda.png"
+        class="footerContainer__Hotel"
+      />
+      <p class="footerContainer__Text">
+        Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing
+        eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitat ion ullamco laboris nisi.
+      </p>
+      <div class="footerContainer__SocialMedial">
+        <img
+          class="footerContainer__SocialMedial__Item"
+          src="./assets/footerAssets/fb.svg"
+        />
+        <img
+          class="footerContainer__SocialMedial__Item--twitter"
+          src="./assets/footerAssets/tw.svg"
+        />
+        <img
+          class="footerContainer__SocialMedial__Item"
+          src="./assets/footerAssets/be.svg"
+        />
+        <img
+          class="footerContainer__SocialMedial__Item"
+          src="./assets/footerAssets/link.svg"
+        />
+        <img
+          class="footerContainer__SocialMedial__Item"
+          src="./assets/footerAssets/yt.svg"
+        />
+      </div>
+      <div>
+        <h3 class="footerContainer__Title">Services.</h3>
+        <ul class="footerContainer__List">
+          <li class="footerContainer__List__Item">+ Resturent & Bar</li>
+          <li class="footerContainer__List__Item">+ Swimming Pool</li>
+          <li class="footerContainer__List__Item">+ Wellness & Spa</li>
+          <li class="footerContainer__List__Item">+ Restaurant</li>
+          <li class="footerContainer__List__Item">+ Conference Room</li>
+          <li class="footerContainer__List__Item">+ Coctail Party House</li>
+        </ul>
+        <ul class="footerContainer__List">
+          <li class="footerContainer__List__Item">+ Gaming Zone</li>
+          <li class="footerContainer__List__Item">+ Marrige Party</li>
+          <li class="footerContainer__List__Item">+ Party Planning</li>
+          <li class="footerContainer__List__Item">+ Tour Consultancy</li>
+        </ul>
+      </div>
+      <div class="footerContainer__InfoContainer">
+        <h3 class="footerContainer__Title">Contact Us.</h3>
+        <div class="footerContainer__InfoGrid">
+          <img
+            class="footerContainer__InfoContainer__Image"
+            src="./assets/footerAssets/Group.png"
+          />
+          <div class="footerContainer__InfoContainer__Info">
+            <h3 class="footerContainer__Title">Phone Number</h3>
+            <p class="footerContainer__InfoContainer__Text">
+              +987 876 765 76 577
+            </p>
+          </div>
+        </div>
+        <div class="footerContainer__InfoGrid">
+          <img
+            class="footerContainer__InfoContainer__Image"
+            src="./assets/footerAssets/icon 9.png"
+          />
+          <div class="footerContainer__InfoContainer__Info">
+            <h3 class="footerContainer__Title">Email</h3>
+            <p class="footerContainer__InfoContainer__Text">
+              loremipsun@loremipsun.com
+            </p>
+          </div>
+        </div>
+        <div class="footerContainer__InfoGrid">
+          <img
+            class="footerContainer__InfoContainer__Image"
+            src="./assets/footerAssets/icon 10.png"
+          />
+          <div class="footerContainer__InfoContainer__Info">
+            <h3 class="footerContainer__Title">Ubication</h3>
+            <p class="footerContainer__InfoContainer__Text">
+              Lorem ipsun dolor sit amet, 13
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footerContainer__footcontainer">
+        <p class="footerContainer__footcontainer__text">
+          Copyright By@Example - 2020
+        </p>
+        <p class="footerContainer__footcontainer__text">
+          Terms of use | Privacy Environmental Policy
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
