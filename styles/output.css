@@ -286,6 +286,11 @@ body {
   text-transform: uppercase;
   margin-top: 1rem;
 }
+.RoomSlideContainer__Slide {
+  width: 24rem;
+  height: 15rem;
+  margin: 1rem;
+}
 .RoomSlideContainer__Title {
   font-size: 3em;
   font-family: "Old Standard TT", serif;
