@@ -1,7 +1,4 @@
-const swiperMenu = new Swiper(".swiper--menu", {
-  direction: "horizontal",
-  loop: true,
-
+const swiperHomeMenu = new Swiper(".swiper--menu", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
