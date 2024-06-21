@@ -71,10 +71,12 @@ body {
   padding: 2rem;
   display: block;
 }
+.Main__Container {
+  margin-top: 4rem;
+}
 .Main__Container__SubTitle {
   font-size: 1em;
   color: white;
-  padding: 1rem;
   font-family: "Archivo", sans-serif;
   font-weight: 700;
   padding-top: 2rem;
@@ -84,7 +86,7 @@ body {
   color: white;
   font-family: "Old Standard TT", serif;
   font-weight: 400;
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 .Main__Container__ButtonTour {
   padding: 1rem;
