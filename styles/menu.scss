@@ -78,35 +78,17 @@
 
     }
     &__ArticleSlide {
-        margin-bottom: 2rem;
-        margin-top: 4rem;
-        margin-left: 1rem;
+        margin: 3rem 1rem;
+        display: flex;
+        justify-content: center;
 
         &__Image {
-
+            width: 20rem;
+            height: 20rem;
+            padding-left: 3rem;
         }
 
-        &__DotsList {
-            display: flex;
-            justify-content: center;
-            padding: 0.6rem;
-            list-style: none;
-            margin-top: 1rem;
-
-            &__Item {
-                padding: 3px;
-                text-align: center;
-                border: 1px solid rgb(185, 185, 185);
-                background-color: white;
-                margin: 0.25rem;
-                border-radius: 50%;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
-                &--active {
-                    background-color: #BEAD8E;
-                }
-            }
-        }
+        
     }
 }
 

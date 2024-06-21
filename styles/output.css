@@ -197,11 +197,11 @@ body {
   background-color: #BEAD8E;
   border: none;
   cursor: pointer;
-  width: 66%;
-  height: 4rem;
   font-size: 0.9em;
   text-transform: uppercase;
   letter-spacing: 0.175rem;
+  width: 66%;
+  height: 4rem;
   margin-left: 1rem;
   margin-top: 2rem;
 }
@@ -210,7 +210,8 @@ body {
   margin-left: 2rem;
   margin-right: 2rem;
   padding-top: 2rem;
-  width: 82%;
+  width: 19.85rem;
+  height: 23rem;
 }
 .AboutUsContainer__ImageContainer {
   display: block;
@@ -508,28 +509,14 @@ body {
   margin: 0.5rem;
 }
 .MenuContainer__ArticleSlide {
-  margin-bottom: 2rem;
-  margin-top: 4rem;
-  margin-left: 1rem;
-}
-.MenuContainer__ArticleSlide__DotsList {
+  margin: 3rem 1rem;
   display: flex;
   justify-content: center;
-  padding: 0.6rem;
-  list-style: none;
-  margin-top: 1rem;
 }
-.MenuContainer__ArticleSlide__DotsList__Item {
-  padding: 3px;
-  text-align: center;
-  border: 1px solid rgb(185, 185, 185);
-  background-color: white;
-  margin: 0.25rem;
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.MenuContainer__ArticleSlide__DotsList__Item--active {
-  background-color: #BEAD8E;
+.MenuContainer__ArticleSlide__Image {
+  width: 20rem;
+  height: 20rem;
+  padding-left: 3rem;
 }
 
 .IconsContainer {
@@ -803,8 +790,8 @@ body {
   padding-bottom: 4rem;
 }
 
-.swiper-wrapper {
-  width: 100%;
+.swiper-slide--extramenu {
+  padding-bottom: 4rem;
 }
 
 .swiper-button-prev, .swiper-button-next {

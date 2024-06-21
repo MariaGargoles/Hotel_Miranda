@@ -42,3 +42,12 @@ const swiperHomeFacilities = new Swiper(".swiper--facilities", {
     el: ".swiper-pagination",
   },
 });
+
+const swiperExtraMenu = new Swiper(".swiper--extramenu", {
+  spaceBetween: 30,
+  effect: "fade",
+  pagination: {
+    el: ".swiper-pagination--extramenu",
+    clickable: true,
+  },
+});
