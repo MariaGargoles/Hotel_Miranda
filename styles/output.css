@@ -806,6 +806,12 @@ body {
   height: 3rem;
   margin: 0 auto;
 }
+.Counter__SliderImage {
+  margin: 1rem;
+  width: 20.93rem;
+  height: 14.37rem;
+  margin-bottom: 3rem;
+}
 
 .swiper {
   margin: 1rem;
@@ -837,6 +843,11 @@ body {
 
 .swiper-pagination {
   background-color: #BEAD8E !important;
+}
+
+.swiper-slide--roomcounter {
+  width: 20.93rem;
+  height: 14.37rem;
 }
 
 .footerContainer {
