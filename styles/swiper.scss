@@ -6,7 +6,7 @@
 }
 .swiper-wrapper {
     width: 100%;
-    padding-bottom: 10em;
+    
 }
 
 
@@ -38,8 +38,27 @@
     
 }
 
-.swiper-pagination{
-    background-color: #BEAD8E !important;
+.swiper-pagination-bullet {
+    background-color:  #BDAC8D !important;
+}
+
+.swiper-pagination-custom-bullet {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    margin: 0 5px;
+    background: #FFF;
+    color: #111;
+    font-size: 1.5em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.swiper-pagination-bullet-active{
+    background-color:  #BDAC8D;
+    color: #FFF;
+   
    
 }
 

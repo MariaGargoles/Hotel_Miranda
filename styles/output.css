@@ -418,6 +418,12 @@ body {
   display: block;
   padding-bottom: 3rem;
 }
+.FacilitiesContainer__Slide {
+  margin: 0 auto;
+}
+.FacilitiesContainer__Wrapper {
+  padding-bottom: 3rem;
+}
 .FacilitiesContainer__Subtitle {
   font-family: "Archivo", sans-serif;
   font-weight: 600;
@@ -427,6 +433,7 @@ body {
   letter-spacing: 0.175rem;
   color: #777777;
   padding: 2rem;
+  margin-top: 2rem;
 }
 .FacilitiesContainer__Title {
   font-size: 3em;
@@ -448,36 +455,22 @@ body {
   padding-left: 1.5rem;
   padding-right: 3rem;
 }
+.FacilitiesContainer__icon {
+  transform: translateX(52%) translateY(159%);
+}
+.FacilitiesContainer__number {
+  font-family: "Archivo";
+  font-size: 7.5em;
+  font-weight: 700;
+  color: rgba(34, 34, 34, 0.0392156863);
+  transform: translateX(143%) translateY(-34%);
+}
 .FacilitiesContainer__ImgContainer {
   display: inline-block;
-  padding: 4rem;
 }
-.FacilitiesContainer__ImgContainer__Dedo {
-  padding-left: 1rem;
-  padding-bottom: 1rem;
-  transform: translateX(-143%) translateY(15%);
-}
-.FacilitiesContainer__ImgContainer__01 {
-  transform: translateX(-6%) translateY(-12%);
-}
-.FacilitiesContainer__containerdots {
-  display: flex;
-  justify-content: center;
-  padding: 0.6rem;
-  list-style: none;
-  margin-top: 2rem;
-}
-.FacilitiesContainer__containerdots__dotsnav {
-  padding: 3px;
-  text-align: center;
-  border: 1px solid rgb(185, 185, 185);
-  background-color: white;
-  margin: 0.25rem;
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.FacilitiesContainer__containerdots__dotsnav--active {
-  background-color: #BEAD8E;
+
+.swiper--facilities {
+  margin: 1rem;
 }
 
 .MenuContainer {
@@ -819,7 +812,6 @@ body {
 
 .swiper-wrapper {
   width: 100%;
-  padding-bottom: 10em;
 }
 
 .swiper-button-prev, .swiper-button-next {
@@ -843,8 +835,26 @@ body {
   color: #111 !important;
 }
 
-.swiper-pagination {
-  background-color: #BEAD8E !important;
+.swiper-pagination-bullet {
+  background-color: #BDAC8D !important;
+}
+
+.swiper-pagination-custom-bullet {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  text-align: center;
+  margin: 0 5px;
+  background: #FFF;
+  color: #111;
+  font-size: 1.5em;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #BDAC8D;
+  color: #FFF;
 }
 
 .swiper-slide--roomcounter {

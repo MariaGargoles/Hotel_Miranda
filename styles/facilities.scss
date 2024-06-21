@@ -1,6 +1,17 @@
+@import "mixin.scss";
+
 .FacilitiesContainer {
     display: block;
     padding-bottom: 3rem;
+
+
+    &__Slide {
+      margin: 0 auto;
+    }
+
+    &__Wrapper {
+      padding-bottom: 3rem;
+    }
 
  &__Subtitle {
     font-family: "Archivo", sans-serif;
@@ -11,6 +22,7 @@
     letter-spacing: 0.175rem;
     color: #777777;
     padding: 2rem;
+    margin-top: 2rem;
     
  }  
  
@@ -37,42 +49,25 @@
     padding-right: 3rem;
     
  }
+ &__icon {
+   transform: translateX(52%) translateY(159%);
+}
+
+&__number {
+   @include number;
+   color: #2222220A;
+   transform: translateX(143%) translateY(-34%);
+}
 
  &__ImgContainer {
     display: inline-block;
-    padding: 4rem;
 
-    &__Dedo {
-        padding-left: 1rem;
-        padding-bottom: 1rem;
-        transform: translateX(-143%) translateY(15%);
-    }
+    
 
-    &__01 {
-        transform: translateX(-6%) translateY(-12%);
-    }
+    
  }
 
- &__containerdots {
-    display: flex;
-    justify-content: center;
-    padding: 0.6rem;
-    list-style: none;
-    margin-top: 2rem;
-
-    &__dotsnav {
-    padding: 3px;
-    text-align: center;
-    border: 1px solid rgb(185, 185, 185);
-    background-color: white;
-    margin: 0.25rem;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
-    &--active{
-        background-color: #BEAD8E;
-        
-    }
-    }
- }
+}
+.swiper--facilities {
+   margin: 1rem;
 }
