@@ -916,4 +916,53 @@ body {
   padding-top: 1rem;
 }
 
+.Rooms {
+  background-color: #333333;
+}
+.Rooms__Main {
+  padding-top: 2rem;
+  padding: 5rem 1rem;
+}
+.Rooms__Main__Subtitle {
+  font-size: 1em;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  padding-top: 3rem;
+  color: white;
+}
+.Rooms__Main__Title {
+  font-size: 3em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  padding-top: 1rem;
+  color: white;
+}
+.Rooms__Main__Container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 38%;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  transform: translateX(140%);
+}
+.Rooms__Main__Container__Home {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  padding-right: 0.25rem;
+  padding-left: 1rem;
+}
+.Rooms__Main__Container__Rooms {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: #BEAD8E;
+  padding-left: 0.25rem;
+}
+
 /*# sourceMappingURL=output.css.map */

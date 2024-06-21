@@ -1,0 +1,36 @@
+.Rooms {
+    
+    background-color:#333333;
+
+    &__Main {
+        padding-top: 2rem;
+        
+        padding: 5rem 1rem;
+
+        &__Subtitle {
+            @include subtitle;
+            padding-top: 3rem;
+            color: #ffff;
+        }
+
+        &__Title {
+            @include title;
+            padding-top: 1rem;
+            color: #ffff;
+        }
+
+        &__Container {
+            @include ContainerDuple;
+            
+            &__Home {
+                @include Home;
+            }
+            &__Rooms {
+                @include Secondary;
+            }
+
+        }
+    }
+
+    
+}
