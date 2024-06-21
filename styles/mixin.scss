@@ -30,3 +30,32 @@
     text-transform: uppercase;
     letter-spacing: 0.175rem;
 }
+
+@mixin ContainerDuple {
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            width: 38%;
+            text-align: center;
+            padding-bottom: 1rem;
+            padding-top: 1rem;
+            padding-right: 1rem;
+            transform: translateX(140%);
+}
+@mixin Home {
+    
+        font-family: "Archivo", sans-serif;
+        font-weight: 700;
+        font-size: 1em;
+        padding-right: 0.25rem;
+        padding-left: 1rem;
+    
+}
+
+@mixin Secondary {
+    font-family: "Archivo", sans-serif;
+                font-weight: 700;
+                font-size: 1em;
+                color: #BEAD8E;
+                padding-left: 0.25rem;
+}
