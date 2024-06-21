@@ -27,16 +27,6 @@ const swiper = new Swiper(".mySwiper", {
   },
 });
 
-const swiperRoom = new Swiper(".RoomsSwiper", {
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-    renderBullet: function (index, className) {
-      return '<span class="' + className + '">' + (index + 1) + "</span>";
-    },
-  },
-});
-
 const swiperHomeFacilities = new Swiper(".swiper--facilities", {
   pagination: {
     el: ".swiper-pagination",

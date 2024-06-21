@@ -36,16 +36,16 @@
 }
 
 .RoomsSwiper {
+    padding: 3rem 1rem;
 
     &__Card {
-        margin:  3rem 1rem;
+        
 
         &__Title {
             font-family: "Old Standard TT", serif;
             font-weight: 400;
             font-size: 1.8em;
             text-align: center;
-            padding-top: 1.5rem;
         }
 
         &__Text {
@@ -65,11 +65,12 @@
         display:  flex;
         flex-direction: column;
         justify-content: center;
-        width: 22.5rem;
-        height: 14rem;
+        margin: 1rem;
 
         &__image {
-            width: 100%;
+            
+            width: 22.5rem;
+            height: 14rem;
         }
 
         &__wifi {
@@ -87,6 +88,17 @@
         font-weight: 700;
         font-size: 1em;
         color: #BEAD8E;
+        padding: 1rem;
+        
+
+    }
+    &__Button{
+        font-family: "Archivo", sans-serif;
+        font-weight: 700;
+        font-size: 1em;
+        color: #BDBDBD;
+        cursor: pointer;
+        padding: 1rem;
         
 
     }
