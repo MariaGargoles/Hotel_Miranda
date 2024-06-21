@@ -40,6 +40,7 @@ const swiperRoom = new Swiper(".RoomsSwiper", {
 const swiperHomeFacilities = new Swiper(".swiper--facilities", {
   pagination: {
     el: ".swiper-pagination",
+    clickable: true,
   },
 });
 

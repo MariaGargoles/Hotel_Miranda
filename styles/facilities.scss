@@ -55,6 +55,10 @@
    @include number;
    color: #2222220A;
    transform: translateX(143%) translateY(-34%);
+   &--aboutus {
+      color: #222222;
+      transform: translateX(0%) translateY(0%);
+   }
 }
 
  &__ImgContainer {

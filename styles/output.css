@@ -452,6 +452,10 @@ body {
   color: rgba(34, 34, 34, 0.0392156863);
   transform: translateX(143%) translateY(-34%);
 }
+.FacilitiesContainer__number--aboutus {
+  color: #222222;
+  transform: translateX(0%) translateY(0%);
+}
 .FacilitiesContainer__ImgContainer {
   display: inline-block;
 }
@@ -780,6 +784,7 @@ body {
   width: 20.93rem;
   height: 14.37rem;
   margin-bottom: 3rem;
+  padding-left: 2rem;
 }
 
 .swiper {
