@@ -35,12 +35,11 @@
             display: flex;
             justify-content: center;
             background-color: white;
-            width: 38%;
             text-align: center;
             padding-bottom: 1rem;
             padding-top: 1rem;
             padding-right: 1rem;
-            transform: translateX(140%);
+            
 }
 @mixin Home {
     
@@ -69,4 +68,11 @@
 @mixin roboto {
     font-family: "Roboto", sans-serif;
     font-size: 0.9em;
+}
+
+@mixin price {
+    font-family: "Archivo", sans-serif;
+    font-weight: 700;
+    color: #BEAD8E;
+    padding: 1rem;
 }

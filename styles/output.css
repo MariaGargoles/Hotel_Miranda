@@ -958,12 +958,16 @@ body {
   display: flex;
   justify-content: center;
   background-color: white;
-  width: 38%;
   text-align: center;
   padding-bottom: 1rem;
   padding-top: 1rem;
   padding-right: 1rem;
+  width: 38%;
   transform: translateX(140%);
+}
+.Rooms__Main__Container--Details {
+  width: 48%;
+  transform: translateX(86%);
 }
 .Rooms__Main__Container__Home {
   font-family: "Archivo", sans-serif;
@@ -992,8 +996,8 @@ body {
 .RoomsSwiper__Card__Text {
   font-family: "Archivo", sans-serif;
   font-weight: 400;
-  color: #777777;
   font-size: 1em;
+  color: #777777;
   text-align: center;
   margin-left: 1rem;
   margin-right: 1rem;
