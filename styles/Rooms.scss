@@ -1,3 +1,5 @@
+@import "mixin.scss";
+
 .Rooms {
     
     background-color:#333333;
@@ -21,6 +23,13 @@
 
         &__Container {
             @include ContainerDuple;
+            width: 38%;
+            transform: translateX(140%);
+
+            &--Details {
+                width: 48%;
+                transform: translateX(86%);
+            }
             
             &__Home {
                 @include Home;
@@ -49,10 +58,7 @@
         }
 
         &__Text {
-            font-family: "Archivo", sans-serif;
-            font-weight: 400;
-            color: #777777;
-            font-size: 1em;
+            @include SimpleText;
             text-align: center;
             margin-left: 1rem;
             margin-right: 1rem;

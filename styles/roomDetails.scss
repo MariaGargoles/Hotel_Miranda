@@ -1,0 +1,54 @@
+@import "mixin.scss";
+
+.Luxury {
+    margin: 3rem 1rem;
+    &__Subtitle {
+        @include subtitle;
+        color: #777777;
+        padding-bottom: 0.5rem;
+    }
+
+    &__Title {
+        font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        font-size: 2.8rem;
+        padding-bottom: 2rem;
+
+    }
+
+    &__ContainerText {
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 1rem;
+
+        &__Price {
+            font-family: "Archivo", sans-serif;
+            font-weight: 700;
+            color: #BEAD8E;
+            font-size: 3em;
+        }
+        
+        &__Night {
+            font-family: "Archivo", sans-serif;
+            font-weight: 700;
+            color: #BEAD8E;
+            font-size: 1em;
+            padding-top: 1rem;
+
+        }
+    }
+    &__Button {
+        font-family: "Archivo", sans-serif;
+        font-weight: 700;
+        font-size: 1.2em;
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    &__Form {
+        
+    }
+}
