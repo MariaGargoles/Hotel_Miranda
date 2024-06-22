@@ -18,8 +18,9 @@
 }
 
 
+
 .swiper-button-prev, .swiper-button-next {
-    width: 1em;
+    width: 1em ;
     height: 1em;
     color: #FFF !important;
     background-color: #BDAC8D !important;
@@ -28,9 +29,24 @@
 
     &--menu {
         transform: translateY(420%);
-        
+        width: 2rem !important;
+        height: 2rem !important;
+        margin-top: 2rem !important;
         
     }
+    &--room {
+        transform: translateY(-514%) translateX(17%);
+        width: 2rem !important;
+        height: 2rem !important;
+    }
+
+    &--rooms {
+        transform: translateY(-408%);
+        width: 2rem !important;
+        height: 2rem !important;
+    }
+
+
     
     
 }
@@ -38,6 +54,8 @@
 .swiper-button-prev {
     &--menu {
         transform: translate(931%, 420%);
+
+        
     }
 }
 .swiper-button-disabled {
@@ -77,3 +95,6 @@
     height: 14.37rem;
 }
 
+:root {
+    --swiper-navigation-size: initial  !important;
+  }

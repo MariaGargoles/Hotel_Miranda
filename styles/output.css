@@ -809,6 +809,19 @@ body {
 }
 .swiper-button-prev--menu, .swiper-button-next--menu {
   transform: translateY(420%);
+  width: 2rem !important;
+  height: 2rem !important;
+  margin-top: 2rem !important;
+}
+.swiper-button-prev--room, .swiper-button-next--room {
+  transform: translateY(-514%) translateX(17%);
+  width: 2rem !important;
+  height: 2rem !important;
+}
+.swiper-button-prev--rooms, .swiper-button-next--rooms {
+  transform: translateY(-408%);
+  width: 2rem !important;
+  height: 2rem !important;
 }
 
 .swiper-button-prev--menu {
@@ -845,6 +858,10 @@ body {
 .swiper-slide--roomcounter {
   width: 20.93rem;
   height: 14.37rem;
+}
+
+:root {
+  --swiper-navigation-size: initial !important;
 }
 
 .footerContainer {
@@ -1188,6 +1205,23 @@ body {
   font-weight: 400;
   font-size: 1em;
   padding: 2rem;
+  color: #777777;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.Cancellation {
+  margin: 3rem 1rem;
+}
+.Cancellation__Title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 1.9em;
+}
+.Cancellation__Text {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
   color: #777777;
 }
 
