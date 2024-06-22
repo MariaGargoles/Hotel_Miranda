@@ -1037,4 +1037,51 @@ body {
   padding: 1rem;
 }
 
+.Luxury {
+  margin: 3rem 1rem;
+}
+.Luxury__Subtitle {
+  font-size: 1em;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  color: #777777;
+  padding-bottom: 0.5rem;
+}
+.Luxury__Title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 2.8rem;
+  padding-bottom: 2rem;
+}
+.Luxury__ContainerText {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.Luxury__ContainerText__Price {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  color: #BEAD8E;
+  font-size: 3em;
+}
+.Luxury__ContainerText__Night {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  color: #BEAD8E;
+  font-size: 1em;
+  padding-top: 1rem;
+}
+.Luxury__Button {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
 /*# sourceMappingURL=output.css.map */
