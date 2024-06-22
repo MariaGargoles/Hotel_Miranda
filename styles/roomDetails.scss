@@ -69,9 +69,7 @@
              padding-top: 1rem;
         }
 
-        &__Label {
-            
-        }
+        
 
         &__Input {
             padding: 1.5rem 1rem;
@@ -116,5 +114,80 @@
         &__Image {
             padding-right: 0.6rem;
         }
+    }
+}
+
+.Founder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem 1rem;
+    
+
+    &__Container {
+        padding-bottom: 2rem;
+       
+        
+
+        &__image {
+            width: 9.375rem;
+            height: 9.375rem;
+            border-radius: 50%;
+            transform: translateX(65%);
+        }
+
+        &__Elipse {
+            transform: translateX(92%) translateY(-208%);
+        }
+
+        &__Vector {
+            transform: translateX(69%) translateY(-1128%);
+        }
+    }
+
+    &__Name {
+        font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        font-size: 1.9em;
+        text-align: center;
+    }
+
+    &__Title {
+        font-family: "Archivo", sans-serif;
+        font-weight: 700;
+        text-align: center;
+        font-size: 1em;
+        text-transform: uppercase;
+        letter-spacing: 0.175rem;
+        padding: 1rem;
+        color: #BEAD8E;
+    }
+
+    &__Text {
+        font-family: "Archivo", sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+        padding: 2rem;
+        color: #777777;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+}
+.Cancellation {
+    margin: 3rem 1rem;
+    
+
+    &__Title {
+        font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        font-size: 1.9em;
+        
+    }
+
+    &__Text {
+        font-family: "Archivo", sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+        color: #777777;
     }
 }
