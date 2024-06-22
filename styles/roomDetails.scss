@@ -16,6 +16,13 @@
 
     }
 
+    &__Text {
+        @include roboto;
+        color: #777777;
+        margin: 0.5rem;
+
+    }
+
     &__ContainerText {
         display: inline-flex;
         flex-wrap: wrap;
@@ -49,6 +56,65 @@
     }
 
     &__Form {
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &__Title {
+            font-family: "Archivo", sans-serif;
+             font-weight: 700;
+             font-size: 1em;
+             padding-bottom: 1rem;
+             padding-top: 1rem;
+        }
+
+        &__Label {
+            
+        }
+
+        &__Input {
+            padding: 1.5rem 1rem;
+            border:none;
+            background-color: #F8F8F8;
+        }
+
+        &__Button {
+            @include BeigeButton;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            margin-top: 1rem;
+        }
+
+    }
+
+}
+
+.Amenities {
+    margin: 3rem 1rem;
+    &__Title {
+        font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        font-size: 1.9em;
+        padding-top: 2rem;
+    }
+
+    &__List {
+        display: inline-block;
+        margin: 3rem 1rem;
+        list-style: none;
         
+
+        &__Item {
+            font-family: "Roboto", sans-serif;
+            font-size: 1em;
+            color: #777777;
+            line-height: 2rem;
+            
+        }
+
+        &__Image {
+            padding-right: 0.6rem;
+        }
     }
 }
