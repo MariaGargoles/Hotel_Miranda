@@ -1146,4 +1146,49 @@ body {
   padding-right: 0.6rem;
 }
 
+.Founder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3rem 1rem;
+}
+.Founder__Container {
+  padding-bottom: 2rem;
+}
+.Founder__Container__image {
+  width: 9.375rem;
+  height: 9.375rem;
+  border-radius: 50%;
+  transform: translateX(65%);
+}
+.Founder__Container__Elipse {
+  transform: translateX(92%) translateY(-208%);
+}
+.Founder__Container__Vector {
+  transform: translateX(69%) translateY(-1128%);
+}
+.Founder__Name {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 1.9em;
+  text-align: center;
+}
+.Founder__Title {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  padding: 1rem;
+  color: #BEAD8E;
+}
+.Founder__Text {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  padding: 2rem;
+  color: #777777;
+}
+
 /*# sourceMappingURL=output.css.map */
