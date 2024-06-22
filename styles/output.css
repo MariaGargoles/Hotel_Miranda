@@ -1055,6 +1055,12 @@ body {
   font-size: 2.8rem;
   padding-bottom: 2rem;
 }
+.Luxury__Text {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em;
+  color: #777777;
+  margin: 0.5rem;
+}
 .Luxury__ContainerText {
   display: inline-flex;
   flex-wrap: wrap;
@@ -1082,6 +1088,62 @@ body {
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 2rem;
+}
+.Luxury__Form {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Luxury__Form__Title {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.Luxury__Form__Input {
+  padding: 1.5rem 1rem;
+  border: none;
+  background-color: #F8F8F8;
+}
+.Luxury__Form__Button {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  color: white;
+  background-color: #BEAD8E;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+.Amenities {
+  margin: 3rem 1rem;
+}
+.Amenities__Title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 1.9em;
+  padding-top: 2rem;
+}
+.Amenities__List {
+  display: inline-block;
+  margin: 3rem 1rem;
+  list-style: none;
+}
+.Amenities__List__Item {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  color: #777777;
+  line-height: 2rem;
+}
+.Amenities__List__Image {
+  padding-right: 0.6rem;
 }
 
 /*# sourceMappingURL=output.css.map */
