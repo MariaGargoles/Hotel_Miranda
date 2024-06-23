@@ -1,18 +1,1405 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @import "mixins.scss";
- *   |         ^^^^^^^^^^^^^
- *   '
- *   contact.scss 1:9  @import
- *   input.scss 17:9   root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
+.NavarContainer {
+  background-color: #FFFFFF;
   display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"mixins.scss\";\d\a   \2502          ^^^^^^^^^^^^^\a   \2575 \a   contact.scss 1:9  @import\a   input.scss 17:9   root stylesheet";
+  box-shadow: 0em 0.18em 0.3em 0em rgba(0, 0, 0, 0.29);
+  width: 100%;
+  padding: 1rem;
+  top: 0;
+  position: fixed;
+  z-index: 999;
 }
+.NavarContainer__FirstPart {
+  display: inline-block;
+}
+.NavarContainer__FirstPart__MenuIcon {
+  padding-left: 1rem;
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+.NavarContainer__FirstPart__MenuIcon--active {
+  content: url("../assets/navbarAssets/1(1).png");
+}
+.NavarContainer__FirstPart__H {
+  display: inline-block;
+  box-shadow: 0rem 0.875rem 1.5rem 0rem rgba(139, 139, 139, 0.25);
+  padding: 0.75rem;
+  margin-right: 0.5rem;
+}
+.NavarContainer__SecondPart {
+  display: inline-block;
+  padding-left: 5rem;
+}
+.NavarContainer__SecondPart__MenuDesplegable {
+  display: none;
+}
+.NavarContainer__SecondPart__MenuDesplegable--active {
+  display: block;
+}
+.NavarContainer__SecondPart__MenuDesplegable__Contenedor {
+  display: inline-block;
+  list-style: none;
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+}
+.NavarContainer__SecondPart__MenuDesplegable__list {
+  margin: 1rem;
+  padding-top: 1rem;
+}
+.NavarContainer__SecondPart__MenuDesplegable__link {
+  text-decoration: none;
+  color: inherit;
+}
+.NavarContainer__SecondPart__MenuIcon {
+  display: none;
+}
+.NavarContainer__SecondPart__Search {
+  padding-left: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+}
+
+.Main {
+  background-color: #333333;
+  padding: 2rem;
+  display: block;
+}
+.Main__Container {
+  margin-top: 4rem;
+}
+.Main__Container__SubTitle {
+  font-size: 1em;
+  color: white;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  padding-top: 2rem;
+}
+.Main__Container__Title {
+  font-size: 3em;
+  color: white;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  padding-top: 2rem;
+}
+.Main__Container__ButtonTour {
+  padding: 1rem;
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  color: white;
+  background-color: #BEAD8E;
+  border: none;
+  cursor: pointer;
+  width: 63%;
+  height: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+}
+.Main__Container__ButtonMore {
+  padding: 1rem;
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  color: white;
+  background-color: #333333;
+  border: 2px solid rgba(255, 255, 255, 0.33);
+  cursor: pointer;
+  width: 63%;
+  height: 4rem;
+  margin-bottom: 3rem;
+  margin-right: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+}
+.Main__Form {
+  background-color: #222222;
+  padding: 2rem;
+}
+.Main__Form__Text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.Main__Form__input {
+  border: none;
+  border-bottom: 2px solid #BEAD8E;
+  width: 80%;
+  outline: none;
+  margin-left: 0.5rem;
+  background-color: #222222;
+  color: grey;
+}
+.Main__Form__button {
+  padding: 1rem;
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  color: white;
+  background-color: #BEAD8E;
+  border: none;
+  cursor: pointer;
+  width: 76%;
+  height: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+}
+
+.AboutUsContainer {
+  background-color: #F9F9F9;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  padding: 1rem;
+}
+.AboutUsContainer__Title {
+  color: #777777;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-size: 1em;
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+.AboutUsContainer__Subtitle {
+  font-size: 3em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+.AboutUsContainer__Text {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #777777;
+  padding: 1rem;
+}
+.AboutUsContainer__Button {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  color: white;
+  background-color: #BEAD8E;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  width: 66%;
+  height: 4rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+.AboutUsContainer__Imagenprincipal {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-top: 2rem;
+  width: 19.85rem;
+  height: 23rem;
+}
+.AboutUsContainer__ImageContainer {
+  display: block;
+  box-shadow: 0rem 0.5rem 1rem 0rem rgba(34, 34, 34, 0.02);
+  margin-left: 2rem;
+  margin-right: 1.8rem;
+  padding: 2rem;
+  background-color: #FFFFFF;
+}
+.AboutUsContainer__Person {
+  display: inline-block;
+  transform: translateX(-124%);
+}
+.AboutUsContainer__PersonOpa {
+  display: inline-block;
+  transform: translateX(46%) translateY(20%);
+}
+.AboutUsContainer__Strong {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 2em;
+  text-align: center;
+  padding: 1rem;
+}
+.AboutUsContainer__Strong__Text {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  padding: 1rem;
+  line-height: 1.4rem;
+}
+.AboutUsContainer__ContainerLuxury {
+  background-color: #222222;
+  display: block;
+  margin-left: 2rem;
+  margin-right: 1.8rem;
+  padding: 2rem;
+  padding-top: 4rem;
+}
+.AboutUsContainer__ContainerLuxury__Imagen {
+  display: block;
+  transform: translateX(121%);
+}
+.AboutUsContainer__ContainerLuxury__Title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 2em;
+  text-align: center;
+  padding: 1rem;
+  color: #FFFFFF;
+}
+.AboutUsContainer__ContainerLuxury__Text {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  padding: 1rem;
+  line-height: 1.4rem;
+  color: #FFFFFF;
+}
+
+.RoomSlideContainer {
+  display: block;
+  margin-bottom: 18rem;
+}
+.RoomSlideContainer__Subtitle {
+  font-size: 1em;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+.RoomSlideContainer__Slide {
+  width: 24rem;
+  height: 15rem;
+  margin: 1rem;
+}
+.RoomSlideContainer__Title {
+  font-size: 3em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  padding-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+.RoomSlideContainer__Icons {
+  transform: translateX(15%) translateY(66%);
+}
+.RoomSlideContainer__TitleMinimal {
+  font-size: 2em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  text-align: center;
+  display: block;
+  padding: 1rem;
+}
+.RoomSlideContainer__Text {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  color: #777777;
+  padding: 1rem;
+}
+.RoomSlideContainer__ContainerPrice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.RoomSlideContainer__ContainerPrice__Price {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  color: #BEAD8E;
+  font-size: 3em;
+  text-align: center;
+}
+.RoomSlideContainer__ContainerPrice__Price__Text {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  color: #BEAD8E;
+  font-size: 1em;
+  text-align: center;
+}
+.RoomSlideContainer__Minimal {
+  display: block;
+  width: 90%;
+  margin: 1rem;
+  position: absolute;
+  top: 88%;
+  background-color: white;
+  padding-bottom: 2rem;
+}
+
+.IntroVideoContainer {
+  background-color: #222222;
+  padding: 1rem;
+  padding-top: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 3rem;
+}
+.IntroVideoContainer__Subtitle {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  color: #BDAC8D;
+  padding: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+}
+.IntroVideoContainer__Title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 3em;
+  padding: 1rem;
+  color: white;
+}
+.IntroVideoContainer__Text {
+  color: #C2C2C2;
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  padding: 1rem;
+}
+.IntroVideoContainer__ContainerVideo {
+  padding: 1rem;
+}
+.IntroVideoContainer__ContainerVideo__Video {
+  width: 100%;
+  height: 20rem;
+}
+.IntroVideoContainer__ContainerVideo__Button {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  color: white;
+  background-color: #BEAD8E;
+  border: none;
+  cursor: pointer;
+  width: 66%;
+  height: 4rem;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+.IntroVideoContainer__ContainerVideo__Play {
+  transform: translateX(200%) translateY(-270%);
+}
+
+.FacilitiesContainer {
+  display: block;
+  padding-bottom: 1rem;
+}
+.FacilitiesContainer__Wrapper {
+  padding-bottom: 3rem;
+}
+.FacilitiesContainer__Subtitle {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  font-size: 0.9em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  color: #777777;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+.FacilitiesContainer__Title {
+  font-size: 3em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  text-align: center;
+}
+.FacilitiesContainer__HighText {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  padding: 1.5rem;
+}
+.FacilitiesContainer__Text {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-size: 0.9em;
+  color: #777777;
+  padding-left: 1.5rem;
+  padding-right: 3rem;
+}
+.FacilitiesContainer__icon {
+  transform: translateX(52%) translateY(159%);
+}
+.FacilitiesContainer__number {
+  font-family: "Archivo";
+  font-size: 7.5em;
+  font-weight: 700;
+  color: rgba(34, 34, 34, 0.0392156863);
+  transform: translateX(143%) translateY(-34%);
+}
+.FacilitiesContainer__number--aboutus {
+  color: #222222;
+  transform: translateX(0%) translateY(0%);
+}
+.FacilitiesContainer__ImgContainer {
+  display: inline-block;
+}
+
+.swiper--facilities {
+  margin: 1rem;
+}
+
+.MenuContainer {
+  display: block;
+  padding: 1rem;
+}
+.MenuContainer__Subtitle {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  color: #777777;
+  padding-bottom: 1rem;
+}
+.MenuContainer__Imagen {
+  transform: translateX(347%) translateY(17%);
+}
+.MenuContainer__Title {
+  font-size: 3em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  padding-bottom: 2rem;
+  margin-right: 1rem;
+}
+.MenuContainer__Slider__Arrows {
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+.MenuContainer__Slider__Item {
+  display: inline-flex;
+}
+.MenuContainer__Slider__Title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  padding: 0.5rem;
+  text-align: center;
+}
+.MenuContainer__Slider__Text {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em;
+  margin: 0.5rem;
+  text-align: center;
+}
+.MenuContainer__Slider__Imagen {
+  width: 7.5rem;
+  height: 7.5rem;
+  margin: 0.5rem;
+}
+.MenuContainer__ArticleSlide {
+  margin: 3rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+.MenuContainer__ArticleSlide__Image {
+  width: 20rem;
+  height: 20rem;
+  padding-left: 3rem;
+}
+
+.IconsContainer {
+  padding: 2rem;
+  text-align: center;
+  background-color: #222222;
+}
+.IconsContainer__Article {
+  padding-bottom: 3rem;
+}
+.IconsContainer__Title {
+  font-family: "Roboto", sans-serif;
+  font-size: 3em;
+  color: white;
+  font-weight: 700;
+}
+.IconsContainer__Text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  color: #777777;
+  font-weight: 700;
+}
+
+.MainSection {
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+.MainSection__ArticleLuxury {
+  background-color: #333333 !important;
+}
+.MainSection__ArticleLuxury__Subtitle {
+  font-size: 1em;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  color: white;
+  padding: 1rem;
+  padding-top: 5rem;
+}
+.MainSection__ArticleLuxury__Title {
+  font-size: 3em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  padding-bottom: 2rem;
+  margin-right: 1rem;
+  color: white;
+  padding-left: 1rem;
+}
+.MainSection__ArticleLuxury__Container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 38%;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  transform: translateX(140%);
+  padding-right: 1rem;
+}
+.MainSection__ArticleLuxury__Container__Home {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  padding-right: 0.25rem;
+  padding-left: 1rem;
+}
+.MainSection__ArticleLuxury__Container__About {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: #BEAD8E;
+  padding-left: 0.25rem;
+}
+.MainSection__PresentVideo__Video {
+  margin: 1rem;
+  padding-top: 3rem;
+  padding-left: 1rem;
+}
+.MainSection__PresentVideo__Text {
+  padding: 1rem;
+  font-size: 1.9em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.MainSection__IconsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.MainSection__IconsContainer__Item {
+  flex: 1 1 30%;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.7rem;
+  justify-content: center;
+  margin: 1rem;
+}
+.MainSection__IconsContainer__Item__Image {
+  padding-left: 1rem;
+}
+.MainSection__IconsContainer__Item__Text {
+  font-size: 0.7em;
+  color: black;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  padding-top: 1rem;
+}
+.MainSection__IconsContainer__Item__Text--active {
+  color: white;
+}
+.MainSection__IconsContainer__Item--active {
+  background-color: #BEAD8E;
+}
+.MainSection__ImageContainer {
+  width: 18.4rem;
+  height: 14.5rem;
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 2rem;
+}
+.MainSection__ImageContainer__Image {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.Restaurant {
+  margin: 3rem 2rem;
+}
+.Restaurant__Subtitle {
+  font-size: 1em;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  color: #777777;
+}
+.Restaurant__Title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 2.5em;
+  padding-top: 1.5rem;
+}
+.Restaurant__Text {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #777777;
+  padding-top: 2rem;
+}
+.Restaurant__Button {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  color: white;
+  background-color: #BEAD8E;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  width: 70%;
+  height: 3.6rem;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.Facilities {
+  background-color: #222222;
+  padding: 3rem 1.5rem;
+}
+.Facilities__Subtitle {
+  font-size: 1em;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  color: white;
+  text-align: center;
+}
+.Facilities__Title {
+  font-size: 3em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+.Facilities__ContainerSlider {
+  background-color: #292929;
+  padding: 3rem 1.5rem;
+}
+.Facilities__HighText {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 2em;
+  color: white;
+  padding-top: 1rem;
+}
+.Facilities__Text {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  color: white;
+  padding-top: 1rem;
+}
+.Facilities__ContainerImages {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Counter {
+  margin: 3rem 1rem;
+}
+.Counter__Subtitle {
+  font-size: 1em;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  padding-top: 2rem;
+}
+.Counter__Title {
+  font-size: 3em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  padding-top: 2rem;
+}
+.Counter__Container {
+  padding-top: 4rem;
+  width: 100%;
+}
+.Counter__Container__container {
+  display: inline-flex;
+  padding: 2rem;
+}
+.Counter__Container__img {
+  width: 5rem;
+  height: 5rem;
+  padding-right: 1.5rem;
+}
+.Counter__Container__HardText {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 4em;
+  padding-right: 1.5rem;
+}
+.Counter__Container__Text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #777777;
+}
+.Counter__Container__Arrow {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+}
+.Counter__SliderImage {
+  margin: 1rem;
+  width: 20.93rem;
+  height: 14.37rem;
+  margin-bottom: 3rem;
+  padding-left: 2rem;
+}
+
+.swiper {
+  margin: 1rem;
+}
+
+.swiper-slide--menu {
+  padding-bottom: 4rem;
+}
+
+.swiper-slide--extramenu {
+  padding-bottom: 4rem;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  width: 1em;
+  height: 1em;
+  color: #FFF !important;
+  background-color: #BDAC8D !important;
+  display: inline-block;
+  cursor: pointer;
+}
+.swiper-button-prev--menu, .swiper-button-next--menu {
+  transform: translateY(420%);
+  width: 2rem !important;
+  height: 2rem !important;
+  margin-top: 2rem !important;
+}
+.swiper-button-prev--room, .swiper-button-next--room {
+  transform: translateY(-514%) translateX(17%);
+  width: 2rem !important;
+  height: 2rem !important;
+}
+.swiper-button-prev--rooms, .swiper-button-next--rooms {
+  transform: translateY(-408%);
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+.swiper-button-prev--menu {
+  transform: translate(931%, 420%);
+}
+
+.swiper-button-disabled {
+  background-color: #FFF !important;
+  color: #111 !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #BDAC8D !important;
+}
+
+.swiper-pagination-custom-bullet {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  text-align: center;
+  margin: 0 5px;
+  background: #FFF;
+  color: #111;
+  font-size: 1.5em;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #BDAC8D;
+  color: #FFF;
+}
+
+.swiper-slide--roomcounter {
+  width: 20.93rem;
+  height: 14.37rem;
+}
+
+:root {
+  --swiper-navigation-size: initial !important;
+}
+
+.footerContainer {
+  background-image: url("../assets/footerAssets/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 2rem;
+}
+.footerContainer__Imagen {
+  display: inline-block;
+  padding: 1.2rem;
+  background-color: #BEAD8E;
+}
+.footerContainer__Hotel {
+  display: inline-block;
+  padding-left: 2.3rem;
+}
+.footerContainer__Text {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #777777;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  margin-right: 4rem;
+}
+.footerContainer__SocialMedial {
+  padding: 1rem;
+  margin-right: 1rem;
+}
+.footerContainer__SocialMedial__Item {
+  padding-right: 1rem;
+}
+.footerContainer__SocialMedial__Item--twitter {
+  padding: 0.5rem;
+  background-color: #BEAD8E;
+  margin-right: 1rem;
+}
+.footerContainer__Title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.footerContainer__List {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  color: #777777;
+  line-height: 2.5rem;
+  padding-bottom: 2rem;
+  display: inline-grid;
+}
+.footerContainer__InfoContainer {
+  display: block;
+}
+.footerContainer__InfoContainer__Info {
+  display: block;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+.footerContainer__InfoContainer__Image {
+  width: 2em;
+  height: 2em;
+  margin-top: 1rem;
+}
+.footerContainer__InfoContainer__Text {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #777777;
+}
+.footerContainer__InfoGrid {
+  display: inline-flex;
+}
+.footerContainer__footcontainer {
+  background-color: white;
+}
+.footerContainer__footcontainer__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  padding-top: 1rem;
+}
+
+.Rooms {
+  background-color: #333333;
+}
+.Rooms__Main {
+  padding-top: 2rem;
+  padding: 5rem 1rem;
+}
+.Rooms__Main__Subtitle {
+  font-size: 1em;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  padding-top: 3rem;
+  color: white;
+}
+.Rooms__Main__Title {
+  font-size: 3em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  padding-top: 1rem;
+  color: white;
+}
+.Rooms__Main__Container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  width: 38%;
+  transform: translateX(140%);
+}
+.Rooms__Main__Container--Details {
+  width: 48%;
+  transform: translateX(86%);
+}
+.Rooms__Main__Container__Home {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  padding-right: 0.25rem;
+  padding-left: 1rem;
+}
+.Rooms__Main__Container__Rooms {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: #BEAD8E;
+  padding-left: 0.25rem;
+}
+
+.RoomsSwiper {
+  padding: 3rem 1rem;
+}
+.RoomsSwiper__Card__Title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 1.8em;
+  text-align: center;
+}
+.RoomsSwiper__Card__Text {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #777777;
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-top: 1rem;
+}
+.RoomsSwiper__ContainerImages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem;
+}
+.RoomsSwiper__ContainerImages__image {
+  width: 22.5rem;
+  height: 14rem;
+}
+.RoomsSwiper__ContainerImages__wifi {
+  transform: translateY(-30%);
+}
+.RoomsSwiper__ContainerButton {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+}
+.RoomsSwiper__ContainerButton__Text {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: #BEAD8E;
+  padding: 1rem;
+}
+.RoomsSwiper__ContainerButton__Button {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: #BDBDBD;
+  cursor: pointer;
+  padding: 1rem;
+}
+.RoomsSwiper__ContainerButton__Link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Luxury {
+  margin: 3rem 1rem;
+}
+.Luxury__Subtitle {
+  font-size: 1em;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  color: #777777;
+  padding-bottom: 0.5rem;
+}
+.Luxury__Title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 2.8rem;
+  padding-bottom: 2rem;
+}
+.Luxury__Text {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em;
+  color: #777777;
+  margin: 0.5rem;
+}
+.Luxury__ContainerText {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.Luxury__ContainerText__Price {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  color: #BEAD8E;
+  font-size: 3em;
+}
+.Luxury__ContainerText__Night {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  color: #BEAD8E;
+  font-size: 1em;
+  padding-top: 1rem;
+}
+.Luxury__Button {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.Luxury__Form {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Luxury__Form__Title {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.Luxury__Form__Input {
+  padding: 1.5rem 1rem;
+  border: none;
+  background-color: #F8F8F8;
+}
+.Luxury__Form__Button {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  color: white;
+  background-color: #BEAD8E;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+.Amenities {
+  margin: 3rem 1rem;
+}
+.Amenities__Title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 1.9em;
+  padding-top: 2rem;
+}
+.Amenities__List {
+  display: inline-block;
+  margin: 3rem 1rem;
+  list-style: none;
+}
+.Amenities__List__Item {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  color: #777777;
+  line-height: 2rem;
+}
+.Amenities__List__Image {
+  padding-right: 0.6rem;
+}
+
+.Founder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3rem 1rem;
+}
+.Founder__Container {
+  padding-bottom: 2rem;
+}
+.Founder__Container__image {
+  width: 9.375rem;
+  height: 9.375rem;
+  border-radius: 50%;
+  transform: translateX(65%);
+}
+.Founder__Container__Elipse {
+  transform: translateX(92%) translateY(-208%);
+}
+.Founder__Container__Vector {
+  transform: translateX(69%) translateY(-1128%);
+}
+.Founder__Name {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 1.9em;
+  text-align: center;
+}
+.Founder__Title {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  padding: 1rem;
+  color: #BEAD8E;
+}
+.Founder__Text {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  padding: 2rem;
+  color: #777777;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.Cancellation {
+  margin: 3rem 1rem;
+}
+.Cancellation__Title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 1.9em;
+}
+.Cancellation__Text {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #777777;
+}
+
+.SectionOfferts {
+  margin: 3rem 1rem;
+}
+
+.Offerts {
+  box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1);
+  padding: 1rem;
+}
+.Offerts__Image {
+  width: 22rem;
+  height: 11.1rem;
+}
+.Offerts__PriceContainer {
+  display: flex;
+  justify-content: end;
+  transform: translateY(-254%);
+}
+.Offerts__PriceContainer__Price {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  color: #BEAD8E;
+  font-size: 1.5em;
+  text-decoration: line-through;
+}
+.Offerts__PriceContainer__Night {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  color: #BEAD8E;
+  font-size: 1em;
+  padding: 0.3rem;
+}
+.Offerts__OffertContainer {
+  display: flex;
+  justify-content: end;
+  transform: translateY(-190%);
+}
+.Offerts__OffertContainer__Price {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  color: #DE5777;
+  font-size: 1.9em;
+}
+.Offerts__OffertContainer__Night {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  color: #DE5777;
+  font-size: 1em;
+  padding-top: 0.8rem;
+  padding-left: 0.3rem;
+}
+.Offerts__Subtitle {
+  font-size: 1em;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  color: #777777;
+  padding-bottom: 2rem;
+}
+.Offerts__Title {
+  font-size: 3em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+}
+.Offerts__Text {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em;
+  color: #777777;
+  padding-top: 1rem;
+}
+.Offerts__List {
+  display: inline-block;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-right: 0.7rem;
+  list-style: none;
+}
+.Offerts__Button {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  color: white;
+  background-color: #BEAD8E;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  padding: 1.5rem 4rem;
+  margin-bottom: 2rem;
+}
+
+.Popular {
+  background-color: #222222;
+  padding: 3rem 1rem;
+}
+.Popular__Subtitle {
+  font-size: 1em;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  color: #BEAD8E;
+  text-align: center;
+}
+.Popular__Title {
+  font-size: 3em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 1rem;
+  color: white;
+}
+.Popular__Container {
+  background-color: white;
+}
+.Popular__Image {
+  width: 22rem;
+  height: 14rem;
+}
+.Popular__wifi {
+  transform: translateY(-35%) translateX(15%);
+}
+
+.Information {
+  margin: 3rem 2rem;
+}
+.Information__Article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 14.75rem;
+}
+.Information__Article__Container {
+  display: inline-flex;
+  padding-top: 5rem;
+}
+.Information__Article__Image {
+  width: 2.5rem;
+  height: 2.3rem;
+  transform: translateY(207%);
+}
+.Information__Article__Address {
+  padding-left: 2rem;
+  padding-top: 5rem;
+  z-index: 999;
+}
+.Information__Article__Address__Title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  padding-bottom: 1rem;
+}
+.Information__Article__Address__Subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em;
+  color: #777777;
+  padding-bottom: 1rem;
+}
+.Information__Article__Address__Number {
+  font-family: "Archivo";
+  font-size: 12.5em;
+  font-weight: 700;
+  color: #F8F8F8;
+  transform: translateX(7%) translateY(-68%);
+  display: flex;
+  justify-content: flex-end;
+}
+.Information__Article__Address__Map {
+  width: 20rem;
+  height: 13rem;
+}
+
+/*# sourceMappingURL=output.css.map */

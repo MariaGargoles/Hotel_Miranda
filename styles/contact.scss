@@ -1,1 +1,58 @@
-@import "mixins.scss";
+@import "mixin.scss";
+
+.Information {
+    margin: 3rem 2rem;
+
+    &__Article {
+       display: flex; 
+       flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 14.75rem;
+
+        &__Container {
+            display: inline-flex;
+            padding-top: 5rem;
+        }
+
+        &__Image {
+            width: 2.5rem;
+            height: 2.3rem;
+            transform: translateY(207%);
+            
+        }
+
+        &__Address {
+            padding-left: 2rem;
+            padding-top: 5rem;
+            z-index: 999;
+            &__Title {
+                font-family: "Old Standard TT", serif;
+                font-weight: 400;
+                font-size: 1.5em;
+                padding-bottom: 1rem;
+            }
+
+            &__Subtitle {
+                @include roboto;
+                color: #777777;
+                padding-bottom: 1rem;
+            }
+
+            &__Number {
+                font-family: 'Archivo';
+                font-size: 12.5em;
+                font-weight: 700;
+                color: #F8F8F8;
+                transform: translateX(7%) translateY(-68%);
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            &__Map {
+                width: 20rem;
+                height: 13rem;
+            }
+        }
+    }
+}
