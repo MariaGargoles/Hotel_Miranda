@@ -1229,4 +1229,17 @@ body {
   color: #777777;
 }
 
+.SectionOfferts {
+  margin: 3rem 1rem;
+}
+
+.Offerts {
+  box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1);
+  margin: 3rem 1rem;
+}
+.Offerts__Image {
+  width: 21rem;
+  height: 10.1rem;
+}
+
 /*# sourceMappingURL=output.css.map */

@@ -1,2 +1,16 @@
 @import "mixin.scss";
 
+.SectionOfferts {
+    margin: 3rem 1rem;
+}
+
+.Offerts {
+    box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1);
+    margin: 3rem 1rem;
+ 
+    
+    &__Image {
+        width: 21rem;
+        height: 10.1rem;
+    }
+}
