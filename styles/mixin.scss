@@ -76,3 +76,8 @@
     color: #BEAD8E;
     padding: 1rem;
 }
+
+@mixin link {
+    text-decoration: none;
+    color: inherit;
+}

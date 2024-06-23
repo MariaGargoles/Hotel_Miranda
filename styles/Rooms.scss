@@ -108,5 +108,9 @@
         
 
     }
+
+    &__Link {
+        @include link;
+    }
    }
 }

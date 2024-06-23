@@ -1,3 +1,5 @@
+@import "mixin.scss";
+
 .NavarContainer {
     background-color: #FFFFFF;
   display: block;
@@ -59,8 +61,7 @@
         }
 
         &__link {
-          text-decoration: none;
-        color: inherit;
+          @include link;
         }
     }
 

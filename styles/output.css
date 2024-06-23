@@ -1053,6 +1053,10 @@ body {
   cursor: pointer;
   padding: 1rem;
 }
+.RoomsSwiper__ContainerButton__Link {
+  text-decoration: none;
+  color: inherit;
+}
 
 .Luxury {
   margin: 3rem 1rem;
