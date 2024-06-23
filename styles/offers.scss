@@ -6,11 +6,122 @@
 
 .Offerts {
     box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1);
-    margin: 3rem 1rem;
- 
+    
+    padding: 1rem;
     
     &__Image {
-        width: 21rem;
-        height: 10.1rem;
+        width: 22rem;
+        height: 11.1rem;
     }
+
+    &__PriceContainer {
+        display: flex;
+        justify-content: end;
+        transform: translateY(-254%);
+        
+
+        &__Price {
+            font-family: "Archivo", sans-serif;
+            font-weight: 700;
+            color: #BEAD8E;
+            font-size: 1.5em;
+            text-decoration: line-through;
+            
+
+        }
+
+        &__Night {
+            font-family: "Archivo", sans-serif;
+            font-weight: 700;
+            color: #BEAD8E;
+            font-size: 1em;
+            padding: 0.3rem;
+            
+        }
+    }
+
+    &__OffertContainer {
+        display: flex;
+        justify-content: end;
+        transform: translateY(-190%);
+
+        &__Price {
+            font-family: "Archivo", sans-serif;
+            font-weight: 700;
+            color: #DE5777;
+            font-size: 1.9em;
+            
+        }
+        &__Night {
+            font-family: "Archivo", sans-serif;
+            font-weight: 700;
+            color: #DE5777;
+            font-size: 1em;
+            padding-top: 0.8rem;
+            padding-left: 0.3rem;
+            
+        }
+    } 
+
+    &__Subtitle {
+        @include subtitle;
+        color:  #777777;
+        padding-bottom: 2rem;
+    }
+
+    &__Title {
+        @include title;
+    }
+
+    &__Text {
+        @include roboto;
+        color: #777777;
+        padding-top: 1rem;
+    }
+
+    &__List {
+        display: inline-block;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-right: 0.7rem;
+        list-style: none;
+    }
+
+    &__Button {
+        @include BeigeButton;
+        padding: 1.5rem 4rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.Popular {
+    background-color: #222222;
+    padding: 3rem 1rem;
+
+    &__Subtitle {
+        @include subtitle;
+        color: #BEAD8E;
+        text-align: center;
+    }
+    &__Title {
+        @include title;
+        text-align: center;
+        padding-top: 1rem;
+        color: #FFFF;
+
+    }
+
+    &__Container {
+        background-color: #FFFF;
+    }
+
+    &__Image {
+        width: 22rem;
+        height: 14rem;
+    }
+
+    &__wifi{
+        transform: translateY(-35%) translateX(15%);
+    }
+    
 }
