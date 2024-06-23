@@ -1229,4 +1229,127 @@ body {
   color: #777777;
 }
 
+.SectionOfferts {
+  margin: 3rem 1rem;
+}
+
+.Offerts {
+  box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1);
+  padding: 1rem;
+}
+.Offerts__Image {
+  width: 22rem;
+  height: 11.1rem;
+}
+.Offerts__PriceContainer {
+  display: flex;
+  justify-content: end;
+  transform: translateY(-254%);
+}
+.Offerts__PriceContainer__Price {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  color: #BEAD8E;
+  font-size: 1.5em;
+  text-decoration: line-through;
+}
+.Offerts__PriceContainer__Night {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  color: #BEAD8E;
+  font-size: 1em;
+  padding: 0.3rem;
+}
+.Offerts__OffertContainer {
+  display: flex;
+  justify-content: end;
+  transform: translateY(-190%);
+}
+.Offerts__OffertContainer__Price {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  color: #DE5777;
+  font-size: 1.9em;
+}
+.Offerts__OffertContainer__Night {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  color: #DE5777;
+  font-size: 1em;
+  padding-top: 0.8rem;
+  padding-left: 0.3rem;
+}
+.Offerts__Subtitle {
+  font-size: 1em;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  color: #777777;
+  padding-bottom: 2rem;
+}
+.Offerts__Title {
+  font-size: 3em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+}
+.Offerts__Text {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em;
+  color: #777777;
+  padding-top: 1rem;
+}
+.Offerts__List {
+  display: inline-block;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-right: 0.7rem;
+  list-style: none;
+}
+.Offerts__Button {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  color: white;
+  background-color: #BEAD8E;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  padding: 1.5rem 4rem;
+  margin-bottom: 2rem;
+}
+
+.Popular {
+  background-color: #222222;
+  padding: 3rem 1rem;
+}
+.Popular__Subtitle {
+  font-size: 1em;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  color: #BEAD8E;
+  text-align: center;
+}
+.Popular__Title {
+  font-size: 3em;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 1rem;
+  color: white;
+}
+.Popular__Container {
+  background-color: white;
+}
+.Popular__Image {
+  width: 22rem;
+  height: 14rem;
+}
+.Popular__wifi {
+  transform: translateY(-35%) translateX(15%);
+}
+
 /*# sourceMappingURL=output.css.map */
