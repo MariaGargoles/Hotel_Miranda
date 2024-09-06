@@ -1,12 +1,16 @@
 @import "mixin.scss";
 
+
+.Header { 
+  display: none;
+}
 .NavarContainer {
     background-color: #FFFFFF;
   display: block;
+  align-items: center;
   box-shadow: 0em 0.18em 0.3em 0em rgba(0, 0, 0, 0.29);
   width: 100%;
   padding: 1rem;
-  top: 0;
   position: fixed;
   z-index: 999;
 
@@ -77,6 +81,15 @@
 }
 
 @media only screen and (min-width: 769px) {
+
+  .Header { 
+    display: block;
+    background-color: #222222;
+    color: #FFFFFF;
+    @include roboto;
+    
+
+  }
 
   .NavarContainer { 
     width: 80%;
